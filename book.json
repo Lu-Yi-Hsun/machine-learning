@@ -1,5 +1,5 @@
 {
-    "plugins": [ "theme-api" ],
+    "plugins": [ "mathjax" ],
     "pluginsConfig": {
         "theme-api": {
             "languages": [
