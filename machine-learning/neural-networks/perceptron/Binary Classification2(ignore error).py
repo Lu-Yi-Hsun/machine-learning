@@ -107,6 +107,6 @@ for i in range(k*3):
 print (dataset)
 #print(dataset)
 #exit(1)
-w = pla(dataset,35)
+w = pla(dataset,88)
 
 print_image(w)
