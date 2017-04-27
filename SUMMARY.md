@@ -1,6 +1,6 @@
 # Summary
 
-## Computer Science
+
 
 * [Introduction](README.md)
 * [Machine learning](machine-learning.md)
@@ -8,6 +8,4 @@
     * [Perceptron](machine-learning/neural-networks/perceptron.md)
       * [Binary Classification](machine-learning/neural-networks/perceptron/Binary Classification.md)
   * [Deep Learning](machine-learning/deep-learning.md)
-
-## Mathematics
 
