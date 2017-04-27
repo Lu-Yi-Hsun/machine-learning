@@ -1,18 +1,14 @@
-* [ ] # Perceptron/線性分類器/Linear Classification/perceptron learning algorithm/binary classification/二元分類
+# Perceptron/線性分類器/Linear Classification/perceptron learning algorithm/binary classification/二元分類
 
 ---
 
 ### 核心演算法
 
 | 找到一條線能分開兩種結果 | 如何修改線 |
-| :---: | :--- |
+| :---: | :---: |
 | ![](/assets/figure_1.png) | ![](/assets/RUNXN76.png) |
 
-
-
-
-
-```py
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 import random
