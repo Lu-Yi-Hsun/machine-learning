@@ -2,4 +2,4 @@
 
 
 
-![](/assets/images.jpg)
+![](/assets/Nuvola_apps_atlantik.png)
