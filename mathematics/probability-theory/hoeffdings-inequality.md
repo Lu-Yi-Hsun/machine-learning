@@ -1,11 +1,15 @@
 # Hoeffding's inequality
 
 ![](/assets/hZ4lFY6.png)
-###抽一次誤差很大的機率很低
-* EX.圖抽一次全綠色所以橘色機率$$\nu$$=0%,$$\epsilon$$=|$$\nu$$-$$\mu$$|,$$\epsilon$$會很大所以$$\mathbb{P}$$會很小
 
-The quadratic formula is $$-b \pm \sqrt{b^2 - 4ac} \over 2a$$
+### 抽一次誤差很大的機率很低
 
+* EX.圖抽一次全綠色所以橘色機率$$\nu$$=0%,$$\epsilon$$=\|$$\nu$$-$$\mu$$\|,$$\epsilon$$會很大所以$$\mathbb{P}$$會很小
+
+The quadratic formula is 
+$
+-b \pm \sqrt{b^2 - 4ac} \over 2a
+$
 
 
 ```python
