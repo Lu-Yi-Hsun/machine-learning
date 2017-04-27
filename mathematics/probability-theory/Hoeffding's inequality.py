@@ -31,7 +31,7 @@ for i in y:
         break
 
 
-plt.plot(N,y,"b-",label="e="+str(e))
+plt.plot(N,y,"b-",label="$\epsilon$="+str(e))
 plt.legend()
 plt.xlabel("N")
 plt.ylabel("$\mathbb{P}$")
