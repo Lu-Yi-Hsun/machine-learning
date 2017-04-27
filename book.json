@@ -1,12 +1,22 @@
 {
-    "plugins": [ "mathjax" ],
-   {
+    "plugins": [ "theme-api" ],
     "pluginsConfig": {
-        "mathjax":{
-            "forceSVG": true
+    {
+    "plugins": ["mathjax"]
+}
+        "theme-api": {
+            "languages": [
+                {
+                    "lang": "js",
+                    "name": "JavaScript",
+                    "default": true
+                },
+                {
+                    "lang": "go",
+                    "name": "Go"
+                }
+            ]
         }
     }
 }
 
-
-}
