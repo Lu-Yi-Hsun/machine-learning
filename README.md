@@ -1,8 +1,6 @@
 # Introduction
 
-
-
-學習筆記:[https://lu-yi-hsun.gitbooks.io/machine-learning/content/](https://lu-yi-hsun.gitbooks.io/machine-learning/content/)
+學習筆記
 
 內容來源:
 
