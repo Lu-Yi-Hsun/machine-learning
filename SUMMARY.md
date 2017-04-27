@@ -11,6 +11,6 @@
 
 ## Mathematics
 
-* [Probability theory\(機率論\)](mathematics/probability-theoryji-lv-8ad629.md)
-  * [Hoeffding's Inequality](mathematics/probability-theoryji-lv-8ad629/hoeffdings-inequality.md)
+* [Probability theory](mathematics/probability-theory.md)
+  * [Hoeffding's Inequality](mathematics/probability-theory/hoeffdings-inequality.md)
 
