@@ -1,5 +1,8 @@
-# Hoeffding's lnequality
+# Hoeffding's inequality
+
 ![](/assets/hZ4lFY6.png)
+
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -46,5 +49,5 @@ plt.subplots_adjust(top=0.8)
 plt.show()
 ```
 
-
 ![](/assets/GnTGZPR.png)
+

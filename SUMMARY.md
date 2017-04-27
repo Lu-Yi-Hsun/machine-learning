@@ -12,5 +12,5 @@
 ## Mathematics
 
 * [Probability theory](mathematics/probability-theory.md)
-  * [Hoeffding's Inequality](mathematics/probability-theory/hoeffdings-inequality.md)
+  * [Hoeffding's inequality](mathematics/probability-theory/hoeffdings-inequality.md)
 
