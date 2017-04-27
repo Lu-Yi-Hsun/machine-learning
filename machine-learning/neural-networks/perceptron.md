@@ -1,8 +1,14 @@
-# Perceptron
-
+# Perceptron/線性分類器/Linear Classification/perceptron learning algorithm/binary classification/二元分類
+---
 ### 核心演算法
 
+1. 找到一條線可以分開其他狀況
+![](/assets/figure_1.png)
 ![perceptron\_kernel](/assets/RUNXN76.png)
+
+
+
+
 
 ```py
 import matplotlib.pyplot as plt
