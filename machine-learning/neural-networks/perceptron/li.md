@@ -1,4 +1,4 @@
-# Perceptron/線性分類器/Linear Classification/perceptron learning algorithm/binary classification/二元分類
+# Binary Classification/二元分類
 
 ---
 
