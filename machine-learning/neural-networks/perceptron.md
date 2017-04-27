@@ -5,9 +5,9 @@
 1. 找到一條線可以分開其他狀況
 ![](/assets/figure_1.png)
 
-<img src="/assets/RUNXN76.png" width="2000" height="100" />
 
-![test](https://github.com/favicon.ico)
+
+
 
 
 ```py
