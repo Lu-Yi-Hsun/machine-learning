@@ -7,8 +7,8 @@
 
 * 固定$$\epsilon$$,一次抽越多樣本$$\epsilon$$(誤差)機率越小
 * 固定N,$$\epsilon$$(誤差)越大的機率越小
-
-
+##由於不知道$$\nu$$真實的值所以只能算大概的機率
+![](/assets/ff.PNG)
 
 ```python
 import numpy as np
