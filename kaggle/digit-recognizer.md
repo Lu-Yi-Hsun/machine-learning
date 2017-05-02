@@ -5,6 +5,7 @@ https://www.kaggle.com/c/digit-recognizer
 ######test.csv#測驗的題目#
 ######train.csv#學習的資料#
 ######底下路徑盡量用絕對路徑比較沒有錯誤
+####範例檔案https://www.dropbox.com/s/z3c51a1646nw2c9/ML.zip?dl=0
 ###訓練(retrain.py)
 使用github的retrain.py當作捲基神經網路核心產生兩個檔案reteained_labels.txt(字串),retrained_graph.pb(訓練核心):
 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/image_retraining/retrain.py
