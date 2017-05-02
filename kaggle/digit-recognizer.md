@@ -11,12 +11,12 @@ https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/image_r
 
 當要運行retrain.py的指令:
 !要注意我的路徑跟你的可能不同!
---how_many_training_steps 設定學習次數
---model_dir 設定下載已經先訓練的模型放置位置
---bottleneck_dir 初始化照片的資訊的位置
---output_graph 輸出訓練核心的位置
---output_labels 輸出字串位置
---image_dir 學習的照片
+* --how_many_training_steps 設定學習次數
+* --model_dir 設定下載已經先訓練的模型放置位置
+* --bottleneck_dir 初始化照片的資訊的位置
+* --output_graph 輸出訓練核心的位置
+* --output_labels 輸出字串位置
+* --image_dir 學習的照片
 ```bash
 python -tt retrain.py --bottleneck_dir=/home/s1003951/Desktop/tf_files/bottlenecks --how_many_training_steps 500 --model_dir=/home/s1003951/Desktop/tf_files/inception --output_graph=/home/s1003951/Desktop/tf_files/retrained_graph.pb --output_labels=/home/s1003951/Desktop/tf_files/reteained_labels.txt --image_dir /home/s1003951/Desktop/tf_files/picture_factory
 ```
