@@ -8,6 +8,8 @@
     * [Perceptron](machine-learning/neural-networks/perceptron.md)
       * [Binary Classification](machine-learning/neural-networks/perceptron/Binary Classification.md)
   * [Deep Learning](machine-learning/deep-learning.md)
+* [kaggle](kaggle.md)
+  * [Digit Recognizer](kaggle/digit-recognizer.md)
 
 ## Mathematics
 
