@@ -65,7 +65,11 @@ with tf.Session() as sess:
         print('%s (score = %.5f)' % (human_string, score))
 
 ```
-
+#####當要運行label_image.py的bash
+此照片路徑根據您的照片位置
+```
+python label_image.py /home/fig.jpg
+```
 
 利用這兩個檔案來訓練kaggle的練習比賽
 上述程式是核心,需要改寫一些程式但都是簡單python所以在此不多說
