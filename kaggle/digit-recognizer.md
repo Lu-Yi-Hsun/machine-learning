@@ -6,6 +6,7 @@ https://www.kaggle.com/c/digit-recognizer
 ######train.csv#學習的資料#
 ######底下路徑盡量用絕對路徑比較沒有錯誤
 ####範例檔案https://www.dropbox.com/s/z3c51a1646nw2c9/ML.zip?dl=0
+###底下不管訓練或辨識都要以jpg
 ###訓練(retrain.py)
 使用github的retrain.py當作捲基神經網路核心產生兩個檔案reteained_labels.txt(字串),retrained_graph.pb(訓練核心):
 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/image_retraining/retrain.py
@@ -16,6 +17,7 @@ https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/image_r
 * 注意--image_dir 該路徑底下可能有多個資料夾以資料夾名稱當作辨識的label(以英文命名不然出錯)
 * 照片數量需要超過30張不然會出錯(其實只是程式限制這樣比較精準)
 * 只能辨識沒有轉動的照片如果需要連轉動的照片也辨識就要加入訓練的圖庫
+
 
 ![](/assets/ts.PNG)
 
