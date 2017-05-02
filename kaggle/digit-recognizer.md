@@ -9,11 +9,14 @@ train.csv#學習的資料#
 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/image_retraining/retrain.py
 
 當要運行retrain.py的指令:
+!要注意我的路徑跟你的可能不同!
 ```bash
 python -tt retrain.py --bottleneck_dir=/home/s1003951/Desktop/tf_files/bottlenecks --how_many_training_steps 500 --model_dir=/home/s1003951/Desktop/tf_files/inception --output_graph=/home/s1003951/Desktop/tf_files/retrained_graph.pb --output_labels=/home/s1003951/Desktop/tf_files/reteained_labels.txt --image_dir /home/s1003951/Desktop/tf_files/picture_factory
 ```
 
+
 使用label_image.py 辨識
+注意reteained_labels.txt,retrained_graph.pb檔案的路徑需要修改
 ```python
 import tensorflow as tf
 import sys
