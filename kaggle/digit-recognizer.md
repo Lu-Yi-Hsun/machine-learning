@@ -68,7 +68,7 @@ with tf.Session() as sess:
 
 
 利用這兩個檔案來訓練kaggle的練習比賽
-把
+上述程式是核心,需要改寫一些程式但都是簡單python所以在此不多說
 * train.csv的文字檔轉成照片
 * 照片餵給train.py並訓練
 * 讀取test.csv 並轉成照片
