@@ -83,9 +83,10 @@ python label_image.py /home/fig.jpg
 * 照片餵給train.py並訓練
 * 讀取test.csv 並轉成照片
 * 利用label_image.py辨識照片
-* 答案寫入sample_submission.csv
+* 答案寫入sample_submission.csv準確度為81%可以再進步
 
 
 上傳sample_submission.csv驗證準確度
+![](/assets/kagg.JPG)
 
 
