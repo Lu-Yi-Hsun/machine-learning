@@ -13,9 +13,9 @@ https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/image_r
 當要運行retrain.py的指令:
 注意事項
 * 要注意我的路徑跟你的可能不同!
-* 注意!--image_dir 該路徑底下可能有多個資料夾以資料夾名稱當作辨識的label(以英文命名不然出錯)
+* 注意--image_dir 該路徑底下可能有多個資料夾以資料夾名稱當作辨識的label(以英文命名不然出錯)
 * 照片數量需要超過30張不然會出錯(其實只是程式限制這樣比較精準)
-
+* 只能辨識沒有轉動的照片如果需要連轉動的照片也辨識就要加入訓練的圖庫
 
 ![](/assets/ts.PNG)
 
