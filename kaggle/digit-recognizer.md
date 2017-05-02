@@ -1,10 +1,10 @@
 #Digit Recognizer
 https://www.kaggle.com/c/digit-recognizer
 三個檔案
-sample_submission.csv#讓你看示範上傳檔案#
-test.csv#測驗的題目#
-train.csv#學習的資料#
-底下路徑盡量用絕對路徑比較沒有錯誤
+######sample_submission.csv#讓你看示範上傳檔案#
+######test.csv#測驗的題目#
+######train.csv#學習的資料#
+######底下路徑盡量用絕對路徑比較沒有錯誤
 ###訓練
 使用github的retrain.py當作捲基神經網路核心產生兩個檔案reteained_labels.txt(字串),retrained_graph.pb(訓練核心):
 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/image_retraining/retrain.py
