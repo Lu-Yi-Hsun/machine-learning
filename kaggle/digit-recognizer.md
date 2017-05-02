@@ -4,17 +4,24 @@ https://www.kaggle.com/c/digit-recognizer
 sample_submission.csv#讓你看示範上傳檔案#
 test.csv#測驗的題目#
 train.csv#學習的資料#
-
+底下路徑盡量用絕對路徑比較沒有錯誤
+###訓練
 使用github的retrain.py當作捲基神經網路核心產生兩個檔案reteained_labels.txt(字串),retrained_graph.pb(訓練核心):
 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/image_retraining/retrain.py
 
 當要運行retrain.py的指令:
 !要注意我的路徑跟你的可能不同!
+--how_many_training_steps 設定學習次數
+--model_dir 設定下載已經先訓練的模型放置位置
+--bottleneck_dir 初始化照片的資訊的位置
+--output_graph 輸出訓練核心的位置
+--output_labels 輸出字串位置
+--image_dir 學習的照片
 ```bash
 python -tt retrain.py --bottleneck_dir=/home/s1003951/Desktop/tf_files/bottlenecks --how_many_training_steps 500 --model_dir=/home/s1003951/Desktop/tf_files/inception --output_graph=/home/s1003951/Desktop/tf_files/retrained_graph.pb --output_labels=/home/s1003951/Desktop/tf_files/reteained_labels.txt --image_dir /home/s1003951/Desktop/tf_files/picture_factory
 ```
 
-
+###辨識
 使用label_image.py 辨識
 注意reteained_labels.txt,retrained_graph.pb檔案的路徑需要修改
 ```python
