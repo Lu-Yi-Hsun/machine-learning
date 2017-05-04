@@ -15,4 +15,5 @@
 
 * [Probability theory](mathematics/probability-theory.md)
   * [Hoeffding's inequality](mathematics/probability-theory/hoeffdings-inequality.md)
+  * [Softmax](mathematics/probability-theory/softmax.md)
 
