@@ -1,7 +1,6 @@
-#Softmax
+# Softmax
 
-
-$$\sigma$$(z)$$\tiny{j}$$=$$\tfrac{e^{z\tiny{j}}}{\sum_{k=1}^Ne^{z\tiny{k}}}$$
+$$\sigma$$\(z\)$$\tiny{j}$$=$$\tfrac{e^{\Large{z}\tiny{j}}}{\sum_{k=1}^Ne^{\Large{z}\tiny{k}}}$$
 
 ```python
 import numpy as np
@@ -14,3 +13,6 @@ def softmax(x):
 scores = [2.0, 1.0, 0.2]
 print(softmax(scores))
 ```
+
+
+
