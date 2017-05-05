@@ -10,6 +10,7 @@
   * [Deep Learning](machine-learning/deep-learning.md)
 * [kaggle](kaggle.md)
   * [Digit Recognizer](kaggle/digit-recognizer.md)
+* [Tensorflow](tensorflow.md)
 
 ## Mathematics
 
