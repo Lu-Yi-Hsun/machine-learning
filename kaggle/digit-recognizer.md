@@ -72,6 +72,7 @@ with tf.Session() as sess:
 
 ```
 #####當要運行label_image.py的bash
+
 此照片路徑根據您的照片位置
 ```
 python label_image.py /home/fig.jpg
@@ -90,5 +91,8 @@ python label_image.py /home/fig.jpg
 準確度為81%可以再進步
 
 ![](/assets/kagg.JPG)
+使用此方法再訓練10萬次結果85.7%總共處理5小時使用computer engine(8core),表示此方法不準確
+![](/assets/kaggle.JPG)
+
 
 
