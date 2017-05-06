@@ -4,9 +4,11 @@
 
 ### 抽一次誤差很大的機率很低
 * N=抽出多少個,$$\nu$$=橘色機率在N中,$$\mu$$=橘色的機率占全部,$$\epsilon$$=誤差
-
 * 固定$$\epsilon$$,一次抽越多樣本$$\epsilon$$(誤差)機率越小
 * 固定N,$$\epsilon$$(誤差)越大的機率越小
+* 證明!抽出的越多(N越大)$$\nu$$跟$$\mu$$越接近
+
+
 ##由於不知道$$\nu$$真實的值所以只能算大概的機率就使用此方法
 ![](/assets/ff.PNG)
 
@@ -16,6 +18,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 fig = plt.figure()
 fig.suptitle(r'$\mathbb{P}[|v-\mu|>\epsilon]\leq2e^{-2\epsilon^{2}N}$',fontsize=20,color="gray")
+
 
 #FIG1
 plt.subplot(1, 2, 1)
