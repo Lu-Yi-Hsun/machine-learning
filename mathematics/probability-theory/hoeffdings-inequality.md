@@ -124,7 +124,7 @@ plt.show()
 ```
 
 ![](/assets/hoff.JPG)
-###題目:當E$$\tiny{in}$$和E$$\tiny{out}$$誤差為0.1($$\epsilon$$)的機率為0.05($$\delta$$)hypothesis set有100個(M)
+###題目:當E$$\tiny{in}$$和E$$\tiny{out}$$誤差超過0.1($$\epsilon$$)的機率為0.05($$\delta$$)hypothesis set有100個(M)
 
 
 ![](/assets/HF3.JPG)
