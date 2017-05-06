@@ -7,10 +7,11 @@ fig, ax = plt.subplots()
 plt.xlabel('$\epsilon$')
 fig.suptitle(r'$\mathbb{P}[|v-\mu|>\epsilon]\leq2e^{-2\epsilon^{2}N}$',fontsize=20,color="black",alpha=0.6)
 plt.subplots_adjust(left=0.25, bottom=0.25)
+hypothesis=2 #set how many hypothesis set
 x = np.arange(0.0, 1.0, 0.001)
 
 a0 = 5
-hypothesis=2
+
 
 s=2*hypothesis*np.exp((-2*x**2)*a0)
 l, = plt.plot(x, s, lw=2, color='red')
