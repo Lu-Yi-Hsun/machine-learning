@@ -11,6 +11,7 @@
 * [kaggle](kaggle.md)
   * [Digit Recognizer](kaggle/digit-recognizer.md)
 * [Tensorflow](tensorflow.md)
+  * [Linear Regression Model](tensorflow/linear-regression-model.md)
 
 ## Mathematics
 
