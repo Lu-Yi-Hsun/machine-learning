@@ -10,9 +10,9 @@ plt.subplots_adjust(left=0.25, bottom=0.25)
 x = np.arange(0.0, 1.0, 0.001)
 
 a0 = 5
+hypothesis=2
 
-
-s=2*np.exp((-2*x**2)*a0)
+s=2*hypothesis*np.exp((-2*x**2)*a0)
 l, = plt.plot(x, s, lw=2, color='red')
 #plt.axis([0, 1, -10, 10])
 
@@ -21,13 +21,13 @@ axcolor = 'lightgoldenrodyellow'
 axamp = plt.axes([0.25, 0.10, 0.65, 0.03], facecolor=axcolor)
 
  
-samp = Slider(axamp, 'N', 0.0, 100000.0, valinit=a0)
+samp = Slider(axamp, 'N', 0.0, 1000.0, valinit=a0)
 
 
 def update(val):
     amp = samp.val
     
-    l.set_ydata(2*np.exp((-2*x**2)*amp))
+    l.set_ydata(2*hypothesis*np.exp((-2*x**2)*amp))
     fig.canvas.draw_idle()
  
 samp.on_changed(update)
