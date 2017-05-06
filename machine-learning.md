@@ -7,8 +7,16 @@
 ![](/assets/sswd.PNG)
 
 ##Verification
-### Choose the best hypothesis set using Hoeffding's inequality
+### Choose ONE hypothesis set using Hoeffding's inequality
 ![](/assets/hi.PNG)
+
+
+###Choose many hypothesis set
+![](/assets/HF2.JPG)
+
+hypothesis set越大所需要符合的N就越大
+
 
 [Hoeffding's inequality
 ](/mathematics/probability-theory/hoeffdings-inequality.md)
+
