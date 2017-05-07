@@ -155,13 +155,28 @@ plt.show()
 
 * hypothesis set 所有可能的線\(以上圖來說有無限多種來分開一個點\)
 * dichotomy 資料分群的方法\(有兩種方法\)
+
   ## 所以要算出真正的成長函數\(需要用到機率的知識\)
 
   [影片](https://www.youtube.com/watch?v=dnVofdAomWY&list=PLXVfgk9fNX2I7tB6oIINGBmW50rrmFTqf&index=20)
 
-|  | positive rays | positive intervals | convex | 2D perceptrons |  |
+* $$\tiny{H}(N)$$:dichotomy   
+* break point:第一次有發生"全部"無法解決的N(只要找到一個排列都可以解決就不是breakpoint)
+##break point 計算方法
+####例如perceptrons
+
+* 這個形狀下的排列每個都可以用一條線分開所以breakpoint不是3
+![](/assets/bb1.JPG)
+* 這個形狀下發生無法用線分開,其他形狀也發生無法全部分開所以breakpoint為4
+![](/assets/bb2.JPG)
+
+
+
+
+| m$$\tiny{H}(N)$$=O\($$N^{breakpoint-1}$$\) | positive rays | positive intervals | convex | 2D perceptrons |  
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| m$$\tiny{H}(N)$$ | N+1 | $$\frac{1}{2}N^2+\frac{1}{2}N+1$$ | $$2^N$$ | &lt;$$2^N$$ |  |
+| m$$\tiny{H}(N)$$ | N+1 =O\(N\) | $$\frac{1}{2}N^2+\frac{1}{2}N+1$$=O\($$N^2$$\) | $$2^N$$ | &lt;$$2^N$$ |  
+| break point | 2 | 3 | None | 4 |  
 
 ---
 
