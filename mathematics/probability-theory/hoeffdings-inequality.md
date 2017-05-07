@@ -139,5 +139,6 @@ plt.show()
 
 ![](/assets/HF3.JPG)
 答案為2
-#PLA演算法的hypothesis set有無限多所以怎麼辦?
-因為在平面上有無限多條線所以pla的hypothesis set有無限多個
+#PLA演算法的hypothesis set看似有無限多(錯)?所以怎麼辦?
+因為在平面上有無限多條線所以pla的hypothesis set有無限多個?錯的
+因為有許多重疊的hypothesis set(對)
