@@ -1,5 +1,5 @@
 # Hoeffding's inequality
-
+##單一hypothesis  set
 ![](/assets/hZ4lFY6.png)
 
 ### 抽一次誤差很大的機率很低
@@ -60,7 +60,9 @@ plt.show()
 ```
 
 ![](/assets/GnTGZPR.png)
+##多個hypothesis set
 ##可以設定hypothesis set有多少 可以計算出當你的hypothesis set越大 N就要越大,資料才會準確
+
 
 
 ```python
@@ -71,9 +73,9 @@ from matplotlib.widgets import Slider, Button, RadioButtons
 fig, ax = plt.subplots()
 #equation title
 plt.xlabel('$\epsilon$')
-fig.suptitle(r'$\mathbb{P}[|v-\mu|>\epsilon]\leq2e^{-2\epsilon^{2}N}$',fontsize=20,color="black",alpha=0.6)
+fig.suptitle(r'$\mathbb{P}[|v-\mu|>\epsilon]\leq$2H$e^{-2\epsilon^{2}N}$',fontsize=20,color="black",alpha=0.6)
 plt.subplots_adjust(left=0.25, bottom=0.25)
-hypothesis=2 #set how many hypothesis set
+hypothesis=1 #set how many hypothesis set
 x = np.arange(0.0, 1.0, 0.001)
 
 a0 = 5
@@ -85,26 +87,33 @@ l, = plt.plot(x, s, lw=2, color='red')
 
 axcolor = 'lightgoldenrodyellow'
  
-axamp = plt.axes([0.25, 0.10, 0.65, 0.03], facecolor=axcolor)
+axamp = plt.axes([0.25, 0.09, 0.65, 0.03], facecolor=axcolor)
 
  
 samp = Slider(axamp, 'N', 0.0, 1000.0, valinit=a0)
 
 
+
+hy = plt.axes([0.25, 0.13, 0.65, 0.03], facecolor=axcolor)
+
+ 
+hy_ok = Slider(hy, 'hypothesis set(H)', 0.0, 1000.0, valinit=hypothesis)
+
+
 def update(val):
     amp = samp.val
-    
-    l.set_ydata(2*hypothesis*np.exp((-2*x**2)*amp))
+    hyy=hy_ok.val
+    l.set_ydata(2*hyy*np.exp((-2*x**2)*amp))
     fig.canvas.draw_idle()
  
 samp.on_changed(update)
-
+hy_ok.on_changed(update)
 resetax = plt.axes([0.8, 0.025, 0.1, 0.04])
 button = Button(resetax, 'Reset', color=axcolor, hovercolor='0.975')
 
 
 def reset(event):
- 
+    hy_ok.reset()
     samp.reset()
 button.on_clicked(reset)
 
@@ -121,11 +130,14 @@ radio.on_clicked(colorfunc)
 
 plt.show()
 
+
 ```
 
-![](/assets/hoff.JPG)
+![](/assets/HY3.JPG)
 ###題目:當E$$\tiny{in}$$和E$$\tiny{out}$$誤差超過0.1($$\epsilon$$)的機率為0.05($$\delta$$)hypothesis set有100個(M)
 
 
 ![](/assets/HF3.JPG)
 答案為2
+#PLA演算法的hypothesis set有無限多所以怎麼辦?
+因為在平面上有無限多條線所以pla的hypothesis set有無限多個
