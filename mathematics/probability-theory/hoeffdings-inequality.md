@@ -145,16 +145,16 @@ plt.show()
 
 ---
 
-# PLA演算法的hypothesis set看似有無限多\(錯\)?所以怎麼辦?
+# PLA演算法的hypothesis set有無限多所以怎麼辦?
 
-因為在平面上有無限多條線所以pla的hypothesis set有無限多個?\(錯\)  
-因為有許多重疊的hypothesis set\(對\)  
+因為在平面上有無限多條線所以pla的hypothesis set有無限多個那該怎計算? 
+因為有許多重疊的hypothesis set  
 底下把hypothesis set用dichotomy來替換,因為hypothesis set無限多無法計算  
 以PLA舉例:  
 ![](/assets/DI.JPG)
 
 * hypothesis set 所有可能的線\(以上圖來說有無限多種來分開一個點\)
-* dichotomy 資料分群的方法\(有兩種方法\)
+* dichotomy 資料分群的方法\(有兩種方法上圖的兩條線\)
 
   ## 所以要算出真正的成長函數\(需要用到機率的知識\)
 
@@ -175,7 +175,7 @@ plt.show()
 
 | m$$\tiny{H}(N)$$=O\($$N^{breakpoint-1}$$\) | positive rays | positive intervals | convex | 2D perceptrons |  
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| m$$\tiny{H}(N)$$ | N+1 =O\(N\) | $$\frac{1}{2}N^2+\frac{1}{2}N+1$$=O\($$N^2$$\) | $$2^N$$ | &lt;$$2^N$$ |  
+| m$$\tiny{H}(N)$$ | N+1 =O\(N\) | $$\frac{1}{2}N^2+\frac{1}{2}N+1$$=O\($$N^2$$\) | $$2^N$$ | $$O(N^3$$) |  
 | break point | 2 | 3 | None | 4 |  
 
 ---
