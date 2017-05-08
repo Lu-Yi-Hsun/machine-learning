@@ -178,6 +178,11 @@ plt.show()
 | m$$\tiny{H}(N)$$ | N+1 =O\(N\) | $$\frac{1}{2}N^2+\frac{1}{2}N+1$$=O\($$N^2$$\) | $$2^N$$ | $$O(N^3$$) |  
 | break point | 2 | 3 | None | 4 |  
 
+
+#最後如果要用dichotomy取代hypothesis set
+![](/assets/HF5.JPG)
+[證明上圖](https://www.csie.ntu.edu.tw/~htlin/course/ml08fall/doc/vc_proof.pdf)
+
 ---
 
 
