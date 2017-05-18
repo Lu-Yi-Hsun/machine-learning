@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+
 #網路上找的dataset 可以線性分割
 
 dataset = np.array([
