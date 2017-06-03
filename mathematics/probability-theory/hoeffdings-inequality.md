@@ -147,7 +147,7 @@ plt.show()
 
 # PLA演算法的hypothesis set有無限多所以怎麼辦?
 
-因為在平面上有無限多條線所以pla的hypothesis set有無限多個那該怎計算? 
+因為在平面上有無限多條線所以pla的hypothesis set有無限多個那該怎計算?   
 因為有許多重疊的hypothesis set  
 底下把hypothesis set用dichotomy來替換,因為hypothesis set無限多無法計算  
 以PLA舉例:  
@@ -160,27 +160,28 @@ plt.show()
 
   [影片](https://www.youtube.com/watch?v=dnVofdAomWY&list=PLXVfgk9fNX2I7tB6oIINGBmW50rrmFTqf&index=20)
 
-* $$\tiny{H}(N)$$:dichotomy   
-* break point:第一次有發生"全部"無法解決的N(只要找到一個排列都可以解決就不是breakpoint)
-##break point 計算方法
-####例如perceptrons
+* $$\tiny{H}(N)$$:dichotomy
 
-* 這個形狀下的排列每個都可以用一條線分開所以breakpoint不是3
-![](/assets/bb1.JPG)
+* break point:第一次有發生"全部"無法解決的N\(只要找到一個排列都可以解決就不是breakpoint\)
+
+  ## break point 計算方法
+
+  #### 例如perceptrons
+
+* 這個形狀下的排列每個都可以用一條線分開所以breakpoint不是3  
+  ![](/assets/bb1.JPG)
+
 * 這個形狀下發生無法用線分開,其他形狀也發生無法全部分開所以breakpoint為4
-![](/assets/bb2.JPG)
+  ![](/assets/bb2.JPG)
 
+| m$$\tiny{H}(N)$$=O\($$N^{breakpoint-1}$$\) | positive rays | positive intervals | convex | 2D perceptrons |
+| :--- | :--- | :--- | :--- | :--- |
+| m$$\tiny{H}(N)$$ | N+1 =O\(N\) | $$\frac{1}{2}N^2+\frac{1}{2}N+1$$=O\($$N^2$$\) | $$2^N$$ | $$O(N^3$$\) |
+| break point | 2 | 3 | None | 4 |
 
+# 最後如果要用dichotomy取代hypothesis set
 
-
-| m$$\tiny{H}(N)$$=O\($$N^{breakpoint-1}$$\) | positive rays | positive intervals | convex | 2D perceptrons |  
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| m$$\tiny{H}(N)$$ | N+1 =O\(N\) | $$\frac{1}{2}N^2+\frac{1}{2}N+1$$=O\($$N^2$$\) | $$2^N$$ | $$O(N^3$$) |  
-| break point | 2 | 3 | None | 4 |  
-
-
-#最後如果要用dichotomy取代hypothesis set
-![](/assets/HF5.JPG)
+![](/assets/HF5.JPG)  
 [證明上圖](https://www.csie.ntu.edu.tw/~htlin/course/ml08fall/doc/vc_proof.pdf)
 
 ---
