@@ -14,7 +14,7 @@
 ###Choose many hypothesis set
 ![](/assets/HF2.JPG)
 
-hypothesis set越大所需要符合的N就越大
+hypothesis set越大,所需要的資料(N)就越大,才能符合準確度
 
 
 [Hoeffding's inequality

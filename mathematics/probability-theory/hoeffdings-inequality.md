@@ -1,4 +1,5 @@
 # Hoeffding's inequality
+## 目的：演算法的評估
 
 ## 單一hypothesis  set
 
