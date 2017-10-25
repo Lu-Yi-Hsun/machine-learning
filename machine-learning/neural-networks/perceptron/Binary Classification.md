@@ -8,6 +8,7 @@
 | :---: | :---: |
 | ![](/assets/figure_1.png) | ![](/assets/RUNXN76.png) |
 
+可以容錯是pla變形演算法pocket
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
