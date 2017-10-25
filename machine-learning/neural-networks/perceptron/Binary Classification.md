@@ -1,4 +1,4 @@
-# Binary Classification/二元分類
+# Binary Classification/二元分類 PLA
 
 ---
 
