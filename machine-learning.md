@@ -3,10 +3,11 @@
 ![](/assets/gm9wDgD.png)
 
 
-##Learning Model
+## Learning Model
 ![](/assets/sswd.PNG)
-
-##Verification
+## 為什麼要使用機器學習
+#### 不容易寫出來的規則(辨識圖片),太多未知的可能(探索太空)...
+## Verification
 ### Choose ONE hypothesis set using Hoeffding's inequality
 ![](/assets/hi.PNG)
 
