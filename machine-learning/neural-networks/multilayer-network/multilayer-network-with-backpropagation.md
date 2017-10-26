@@ -5,7 +5,7 @@
 ![](/assets/擷取選取區域_048.png)
 
 
-```
+```python
 
 from __future__ import print_function
 import tensorflow as tf
