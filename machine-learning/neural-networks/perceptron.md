@@ -1,4 +1,4 @@
-# Perceptron/Classification 線性
+# Perceptron/Classification/線性回歸 "線性"
 
 ---
 
