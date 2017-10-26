@@ -2,6 +2,8 @@
 
 ![](/assets/擷取選取區域_041.png)
 
+#範例
+
 ```
 import  tensorflow as tf
 import numpy as np
