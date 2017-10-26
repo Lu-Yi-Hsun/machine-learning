@@ -69,3 +69,6 @@ for step in range(20000):
 
 
 ```
+[延伸多層類神經
+](machine-learning/neural-networks/multilayer-network/multilayer-network-with-backpropagation.md)
+
