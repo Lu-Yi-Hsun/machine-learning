@@ -9,6 +9,7 @@
       * [Binary Classification](machine-learning/neural-networks/perceptron/Binary Classification.md)
       * [Single-layer Network with Backpropagation](machine-learning/neural-networks/perceptron/single-layer-network-with-backpropagation.md)
     * [Multilayer Network](machine-learning/neural-networks/multilayer-network.md)
+      * [Multilayer Network with Backpropagation](machine-learning/neural-networks/multilayer-network/multilayer-network-with-backpropagation.md)
 * [kaggle](kaggle.md)
   * [Digit Recognizer](kaggle/digit-recognizer.md)
 * [Tensorflow](tensorflow.md)
