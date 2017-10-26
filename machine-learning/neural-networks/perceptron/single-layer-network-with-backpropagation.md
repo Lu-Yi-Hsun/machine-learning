@@ -7,7 +7,7 @@
 ### 嘗試要讓類神經藉由數據x跟y學到回歸直線
 ### 學習效率：0.0000001(讓速度慢一點好顯示)
 
-```
+```python
 import  tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
