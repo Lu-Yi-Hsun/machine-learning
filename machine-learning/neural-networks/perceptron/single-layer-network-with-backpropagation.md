@@ -1,7 +1,6 @@
-![](/assets/singlelayer.png)
 
-![](/assets/擷取選取區域_041.png)
-
+![](/assets/擷取選取區域_044.png)
+![](/assets/擷取選取區域_043.png)
 #範例
 ### 資料=10x+5
 ### 嘗試要讓類神經藉由數據x跟y學到回歸直線
