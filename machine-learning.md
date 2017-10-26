@@ -5,8 +5,10 @@
 
 ## Learning Model
 ![](/assets/sswd.PNG)
-## 為什麼要使用機器學習
+## 為什麼要使用機器學習？
 #### 不容易寫出來的規則(辨識圖片),太多未知的可能(探索太空),有足夠的資料...
+## 機器學習作法
+#### 從資料出發去學習
 ## Verification
 ### Choose ONE hypothesis set using Hoeffding's inequality
 ![](/assets/hi.PNG)
