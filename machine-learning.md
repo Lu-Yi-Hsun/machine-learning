@@ -29,6 +29,6 @@
 hypothesis set越大,所需要的資料(N)就越大,才能符合準確度
 
 
-[Hoeffding's inequality
+[Hoeffding's inequality(評估機器學習演算法的方法)
 ](/mathematics/probability-theory/hoeffdings-inequality.md)
 
