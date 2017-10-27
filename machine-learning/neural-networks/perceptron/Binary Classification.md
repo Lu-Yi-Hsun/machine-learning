@@ -235,3 +235,28 @@ w = pla(dataset)
 print_image(w)
 
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+<span style="color:blue">some *This is Blue italic.* text</span>
+
+
+
+
+
+
+
+
+
+
+
+
