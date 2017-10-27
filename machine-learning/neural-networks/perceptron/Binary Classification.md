@@ -247,7 +247,7 @@ print_image(w)
 
 
 
-<span style="color:blue">some *This is Blue italic.* text</span>
+<font color="white">要反白的文字<font>
 
 
 
