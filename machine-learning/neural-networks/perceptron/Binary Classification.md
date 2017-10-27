@@ -1,4 +1,4 @@
-# Binary Classification/二元分類 PLA 
+ # Binary Classification/二元分類 PLA 
 
 ---
 
@@ -49,8 +49,8 @@ def check_error(w, dataset):
 #Cyclic PLA
 def pla(dataset):
 
-    #ax+by+c=0 線性方程式
-    w = np.zeros(3)
+    #ax+by+c=0 線性方程式的法向量
+    w = np.zeros(3)#法向量
     index=0
     while check_error(w, dataset) is not None:
         
