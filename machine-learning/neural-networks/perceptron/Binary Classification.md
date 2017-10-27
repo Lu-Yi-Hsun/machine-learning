@@ -239,14 +239,14 @@ print_image(w)
 
 #當線性可分的時候:證明PLA演算法在有限時間內一定會找到一條最好的直線
 
+$$w_{f}^{T}$$
 
 
 
 
 
 
-
-
+<font color="blue">$$w_{f}^{T}$$<font>
  
 
 
