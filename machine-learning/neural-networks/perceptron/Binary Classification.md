@@ -247,7 +247,7 @@ print_image(w)
 
 
 
-<font color="white">要反白的文字<font>
+ 
 
 
 
