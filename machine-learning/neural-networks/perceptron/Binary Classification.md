@@ -303,8 +303,7 @@ $$
  \\ \LARGE \|W_{X}\|^2\leq X*\underset{n}{max}\|x_{n}\|^2
 \end{cases}
 $$
-ssssssssssssssssssssssssssssssssssssssssssssssssqqqqqqqqqqqqqq
-
+ 
 
 
 
