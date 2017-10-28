@@ -285,17 +285,17 @@ $$\LARGE~~~~~~~~~~~~~~~~~~~~~~~~~\leq \|W_{t}\|^2+\underset{n}{max}\|x_{n}\|^2$$
 ---
 # 參考 式一,式二
 
-$$\LARGE W_{f}^{T}W_{X}\geq W_{f}^{T}W_{X-1}+\underset{n}{min}~y_{n}W_{f}^{T}x_{n}$$
+$$\LARGE 1.W_{f}^{T}W_{X}\geq W_{f}^{T}W_{X-1}+\underset{n}{min}~y_{n}W_{f}^{T}x_{n}$$
 $$\LARGE ~~~~~~~~~~~~~~~~~~~~~~~\geq W_{f}^{T}W_{0}+X＊\underset{n}{min}~y_{n}W_{f}^{T}x_{n}$$
 $$\LARGE ~~~~~~~~~~~~~~~~~~~~~~~\geq X＊\underset{n}{min}~y_{n}W_{f}^{T}x_{n}$$
 
-$$\LARGE \|W_{X}\|^2\leq \|W_{X-1}\|^2+\underset{n}{max}\|x_{n}\|^2$$
+$$\LARGE 2.\|W_{X}\|^2\leq \|W_{X-1}\|^2+\underset{n}{max}\|x_{n}\|^2$$
 $$\LARGE~~~~~~~~~~~~~~~~~~~~~~\leq \|W_{0}\|^2+X*\underset{n}{max}\|x_{n}\|^2$$
  
 $$\LARGE~~~~~~~~~~~~~~~~~~~~~~\leq X*\underset{n}{max}\|x_{n}\|^2$$
 
 
-
+#結合這兩個式子
 $$
 \begin{cases}
 \LARGE W_{f}^{T}W_{X}\geq X＊\underset{n}{min}~y_{n}W_{f}^{T}x_{n}
@@ -304,8 +304,13 @@ $$
 \end{cases}
 $$
  
-#結合這兩個式子
+$$\LARGE\frac{W_{f}^{T}}{\|W_{f}\|}\frac{W_{X}}{\|W_{X}\|}\geq \frac{X＊\underset{n}{min}~y_{n}W_{f}^{T}x_{n}
+}{\|W_{f}\|\sqrt[]{X}*\underset{n}{max}\|x_{n}\|}$$
 
+$$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\LARGE\geq \sqrt[]{X}*\frac{\underset{n}{min}~y_{n}W_{f}^{T}x_{n}
+}{\|W_{f}\|*\underset{n}{max}\|x_{n}\|}$$
 
-
+#結論:證明了當線性可分時PLA演算法會停下來並且找到一個答案
+$$\LARGE\frac{W_{f}^{T}}{\|W_{f}\|}\frac{W_{X}}{\|W_{X}\|}\geq \sqrt[]{X}*\frac{\underset{n}{min}~y_{n}W_{f}^{T}x_{n}
+}{\|W_{f}\|*\underset{n}{max}\|x_{n}\|}$$
 
