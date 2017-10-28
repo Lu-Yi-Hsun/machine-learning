@@ -249,7 +249,7 @@ $$\LARGE W_{t+1}=該時間點更新後的答案$$
 $$\LARGE y_{n}= {1,-1}$$
 $$\LARGE y=sing(ax+b)改寫成y_{n}=sing(W_{f}^{T}x_{n})$$
 $$\LARGE \color{#0000FF}{W_{t}+y_{n(t)}x_{n(t)}}=W_{t+1}修改向量的演算法核心$$
-$$\LARGE X=需要修改的次數$$
+$$\LARGE X=總共需要修改的次數$$
 
 ---
 #式一. 想證明 $$ W_{f}^{T}W_{t+1}>W_{f}^{T}W_{t}$$
@@ -313,4 +313,4 @@ $$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\LARGE\geq \sqrt[]{X}*\frac{\underset{n}{min}~y_
 #結論:證明了當線性可分時PLA演算法會停下來並且找到一個答案
 $$\LARGE\frac{W_{f}^{T}}{\|W_{f}\|}\frac{W_{X}}{\|W_{X}\|}\geq \sqrt[]{X}*\frac{\underset{n}{min}~y_{n}W_{f}^{T}x_{n}
 }{\|W_{f}\|*\underset{n}{max}\|x_{n}\|}$$
-
+我可以看到$$\sqrt[]{X}$$小於一個數字,說明修改次數有限
