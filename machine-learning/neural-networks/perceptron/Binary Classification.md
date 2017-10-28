@@ -240,22 +240,26 @@ print_image(w)
 [參考網路教學](https://rhadow.github.io/2016/02/24/ml-lecture-2/)
 ![](/assets/擷取選取區域_049.png)
 底下向量為法向量
-$$\LARGE W_{f}^{T}=想求答案的向量$$
-$$\LARGE W_{t}=原本的答案$$
-$$\LARGE W_{t+1}=更新後的答案$$
+$$\LARGE W_{f}^{T}=真實想求的函數$$
+$$\LARGE W_{T}=非常"接近答案"的函數$$
+
+
+$$\LARGE W_{t}=某一時間點的答案$$
+$$\LARGE W_{t+1}=該時間點更新後的答案$$
 $$\LARGE y_{n}=圖上圈叉正確$$
 $$\LARGE y=sing(ax+b)改寫成y_{n}=sing(W_{f}^{T}x_{n})$$
-$$\LARGE \LARGE W_{f}^{T}W_{t+1}>W_{f}^{T}W_{t}$$
-$$\LARGE \color{#0000FF}{W_{t}+y_{n(t)}x_{n(t)}}=修改向量的演算法核心$$
+$$\LARGE \color{#0000FF}{W_{t}+y_{n(t)}x_{n(t)}}=W_{t+1}修改向量的演算法核心$$
 
 ---
 #式一. 想證明 $$ W_{f}^{T}W_{t+1}>W_{f}^{T}W_{t}$$
-## 已知$$\color{#7B68EE}{y_{n(t)}W_{f}^{T}x_{n(t)}}>0因為線不能碰到點$$
+## 已知$$\color{#7B68EE}{y_{n(t)}W_{f}^{T}x_{n(t)}}\geq s>0因為線不能碰到點$$
+
 $$\LARGE W_{f}^{T}W_{t+1}=W_{f}^{T}(\color{#0000FF}{W_{t}+y_{n(t)}x_{n(t)}})$$
 $$~~~~~~~~~~~~~~~~~~~~~~~~~~~~\LARGE=W_{f}^{T}W_{t}+\color{#7B68EE}{W_{f}^{T}y_{n(t)}x_{n(t)}}$$
-## 所以
+## 因為
 $$\LARGE W_{f}^{T}W_{t}+\color{#7B68EE}{W_{f}^{T}y_{n(t)}x_{n(t)}}>W_{f}^{T}W_{t}$$
-
+## 所以
+$$\LARGE W_{f}^{T}W_{t+1}>W_{f}^{T}W_{t}$$
 ## 意思是當""向量長度一樣""的時候,兩個向量內積越來越大代表越接近,也就證明了$$W_{t+1}$$越靠近答案$$W_{f}^{T}$$
 
 ---
