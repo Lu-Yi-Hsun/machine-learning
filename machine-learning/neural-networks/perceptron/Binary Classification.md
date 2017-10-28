@@ -298,11 +298,10 @@ $$\LARGE~~~~~~~~~~~~~~~~~~~~~~\leq X*\underset{n}{max}\|x_{n}\|^2$$
 
 $$
 \begin{cases}
- \LARGE W_{f}^{T}W_{X}\geq X＊\underset{n}{min}~y_{n}W_{f}^{T}x_{n}
+\LARGE W_{f}^{T}W_{X}\geq X＊\underset{n}{min}~y_{n}W_{f}^{T}x_{n}
  
- \\e
+ \\ \LARGE \|W_{X}\|^2\leq X*\underset{n}{max}\|x_{n}\|^2
 \end{cases}
-
 $$
 
 
