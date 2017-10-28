@@ -292,7 +292,7 @@ $$\LARGE ~~~~~~~~~~~~~~~~~~~~~~~\geq X＊\underset{n}{min}~y_{n}W_{f}^{T}x_{n}$$
 $$\LARGE \|W_{X}\|^2\leq \|W_{X-1}\|^2+\underset{n}{max}\|x_{n}\|^2$$
 $$\LARGE~~~~~~~~~~~~~~~~~~~~~~\leq \|W_{0}\|^2+X*\underset{n}{max}\|x_{n}\|^2$$
 
-$\LARGE~~~~~~~~~~~~~~~~~~~~~~\leq X*\underset{n}{max}\|x_{n}\|^2$
+$$\LARGE~~~~~~~~~~~~~~~~~~~~~~\leq X*\underset{n}{max}\|x_{n}\|^2$$
 
 
 
