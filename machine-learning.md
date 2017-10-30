@@ -48,7 +48,12 @@
 |:---|:---|:---|
 |資料裡面有人類的智慧,有預先處理的資料</br>範例:辨識1跟5 用人腦寫下規則到底這張圖有沒有對稱或是密度如何![](/assets/擷取選取區域_057.png)|資料沒有人類智慧 </br> 範例:直接輸入pixel,但pixel沒有人類智慧只是單純的數據![](/assets/擷取選取區域_058.png)|
 ---
+<a id="Hoeffdings inequality">
 ## Verification
+</a>
+
+
+
 ### Choose ONE hypothesis set using Hoeffding's inequality
 ![](/assets/hi.PNG)
 
@@ -56,10 +61,8 @@
 ![](/assets/HF2.JPG)
 
 hypothesis set越大,所需要的資料(N)就越大,才能符合準確度
-<a id="Hoeffdings inequality">
 
 
-[Hoeffding's inequality(評估機器學習演算法的方法)
+[Hoeffding's inequality(詳細評估機器學習演算法的方法)
 ](/mathematics/probability-theory/hoeffdings-inequality.md)
 
-</a>
