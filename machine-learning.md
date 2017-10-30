@@ -1,6 +1,6 @@
 # Machine Learning
 [機器學習詳細的分類](#Types of Machine Learning)
-[評估機器學習演算法](#Hoeffding's inequality)
+[評估機器學習演算法](#Hoeffdings inequality)
 
 
 ![](/assets/gm9wDgD.png)
@@ -56,7 +56,7 @@
 ![](/assets/HF2.JPG)
 
 hypothesis set越大,所需要的資料(N)就越大,才能符合準確度
-<a id="Hoeffding's inequality">
+<a id="Hoeffdings inequality">
 
 
 [Hoeffding's inequality(評估機器學習演算法的方法)
