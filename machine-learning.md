@@ -1,11 +1,10 @@
 # Machine Learning
+![](/assets/gm9wDgD.png)
+
 ## 什麼時候可以使用機器學習？
 #### 1.要有規則 2.不容易寫出來的規則(辨識圖片)3.有足夠的資料
 ## 機器學習作法？
 #### 從資料出發去學習
-
-![](/assets/gm9wDgD.png)
-
 
 ## Learning Model
 #### D:跟f有關的資料 
@@ -21,15 +20,14 @@
 
 ![](/assets/sswd.PNG)
 ## Types of Learning
+#1.
 | Binary Classification | Multiclass classification |Regression|Structured Learning|
 | :--- | :--- |:--- |:--- |
 | ![](/assets/binary_perceptron.PNG) | ![](/assets/3擷取.PNG) |![](/assets/擷取選取區域_051.png)|![](/assets/擷取選取區域_052.png)|
-
-
-
-
-
-
+#2.
+|Supervised|Unsupervised|
+| :--- || :--- |
+|Classification![](/assets/3擷取.PNG) | Clustering![](/assets/擷取選取區域_055.png)|
 ## Verification
 ### Choose ONE hypothesis set using Hoeffding's inequality
 ![](/assets/hi.PNG)
