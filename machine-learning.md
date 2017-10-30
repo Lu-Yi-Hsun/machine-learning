@@ -30,20 +30,20 @@
 # Types of Machine Learning
 </a>
 
-## 1.要問什麼問題(輸出的空間有變化)
+## 1.Learning with Different Output Space</br>(要問什麼問題)
 | Binary Classification | Multiclass classification |Regression|Structured Learning|
 | :--- | :--- |:--- |:--- |
 | ![](/assets/binary_perceptron.PNG) | ![](/assets/3擷取.PNG) |![](/assets/擷取選取區域_051.png)|![](/assets/擷取選取區域_052.png)|
-## 2.要怎麼學習(拿到不同資料標記,要怎處理)
+## 2.Learning with Different Data Label</br>(拿到不同標記的資料,要怎處理)
 |Supervised|Semi-supervised|Unsupervised|Reinforcement Learning (增強式學習)|
 | :--- || :--- || :--- || :---|
 |Sample:Classification![](/assets/3擷取.PNG) |![](/assets/擷取選取區域_056.png)| Sample: Clustering![](/assets/擷取選取區域_055.png)</br>clustering(分群)</br>density estimation:哪些地方比較稠密應用ex.哪裡比較常發生事故</br>outlier detection:找出異常的資料,因為異常資料很少|跟訓練寵物一樣,對給獎勵,錯給懲罰
 |
-## 3 輸入資料的方法(取得資料的方法)
+## 3 Learning with Different Protocol $$f \implies (x_{n},y_{n})$$輸入資料的方法
 |batch| Online|active|
 |:---|:---|:---|
 |成批的資料來學習|一筆一筆資料來學習,遇到錯誤在改正</br>ex.PLA,Reinforcement Learning|機器自己問問題,當資料很少或很貴可以使用,也希望機器學習速度加快跟人一樣</br>ex.機器自己寫一個數字,反過來問人來學習|
-## 4 資料種類
+## 4 Learning with Different Input Space $$\mathcal{X}$$ 資料種類
 |Concrete| Raw|abstract|
 |:---|:---|:---|
 |資料裡面有人類的智慧,有預先處理的資料</br>範例:辨識1跟5 用人腦寫下規則到底這張圖有沒有對稱或是密度如何![](/assets/擷取選取區域_057.png)|原始的資料,音訊,bit,pixel</br> 範例:直接輸入pixel,但pixel沒有人類智慧只是單純的數據![](/assets/擷取選取區域_058.png)|抽象的資料ex.使用者id編號|
