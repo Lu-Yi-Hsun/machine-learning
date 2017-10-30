@@ -1,6 +1,6 @@
 # Machine Learning
 ![](/assets/gm9wDgD.png)
-
+[ss](#a)
 ## 什麼時候可以使用機器學習？
 #### 1.要有規則 2.不容易寫出來的規則(辨識圖片)3.有足夠的資料
 ## 機器學習作法？
@@ -56,3 +56,4 @@ hypothesis set越大,所需要的資料(N)就越大,才能符合準確度
 [Hoeffding's inequality(評估機器學習演算法的方法)
 ](/mathematics/probability-theory/hoeffdings-inequality.md)
 
+<a name="a" />
