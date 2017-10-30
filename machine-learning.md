@@ -15,7 +15,8 @@
 #### f:夢想得到的演算法(函數)
 ## Types of Learning
 ### 1.Binary Classification
-### 2.
+### 2.Multiclass Classification
+
 
 #### 目標：從A裡面很多個H中選一個來代表g,希望g越接近f
 
