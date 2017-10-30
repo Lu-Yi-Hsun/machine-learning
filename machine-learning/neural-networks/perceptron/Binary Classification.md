@@ -248,7 +248,7 @@ $$\LARGE W_{t}=某一時間點的答案$$
 $$\LARGE W_{t+1}=該時間點更新後的答案$$
 $$\LARGE y_{n}= {1,-1}$$
 $$\LARGE y=sing(ax+b)改寫成y_{n}=sing(W_{f}^{T}x_{n})$$
-$$\LARGE \color{#0000FF}{W_{t}+y_{n(t)}x_{n(t)}}=W_{t+1}修改向量的演算法核心$$
+$$\LARGE W_{t+1}=\color{#0000FF}{W_{t}+y_{n(t)}x_{n(t)}}修改向量的演算法核心$$
 $$\LARGE X=總共需要修改的次數$$
 
 ---
