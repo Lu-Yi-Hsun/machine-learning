@@ -16,11 +16,7 @@
 ## Types of Learning
 | Binary Classification | Multiclass classification |Regression|
 | :--- | :--- |:--- |
-| ![](/assets/binary_perceptron.PNG) | ![](/assets/3擷取.PNG) |<img src="/assets/擷取選取區域_051.png" width="2%" height="2%">
-
-
-
-|
+| ![](/assets/binary_perceptron.PNG) | ![](/assets/3擷取.PNG) |![](/assets/擷取選取區域_051.png)|
 
 
 
