@@ -33,6 +33,10 @@
 | :--- || :--- || :--- || :---|
 |Sample:Classification![](/assets/3擷取.PNG) |![](/assets/擷取選取區域_056.png)| Sample: Clustering![](/assets/擷取選取區域_055.png)</br>clustering(分群)</br>density estimation:哪些地方比較稠密應用ex.哪裡比較常發生事故</br>outlier detection:找出異常的資料,因為異常資料很少|跟訓練寵物一樣,對給獎勵,錯給懲罰
 |
+#3
+|batch| Online|active|
+|:---|:---|:---|
+|成批的資料來學習|一筆一筆資料來學習,遇到錯誤在改正ex.PLA,Reinforcement Learning|機器自己問問題ex.機器自己寫一個數字,反過來問人來學習|
 ---
 ## Verification
 ### Choose ONE hypothesis set using Hoeffding's inequality
