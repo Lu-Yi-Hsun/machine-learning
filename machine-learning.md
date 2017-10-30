@@ -14,9 +14,13 @@
 #### g:接近真實f的演算法(函數) 
 #### f:夢想得到的演算法(函數)
 ## Types of Learning
-| Binary Classification | Multiclass classification |
-| :--- | :--- |
-| ![](/assets/binary_perceptron.PNG) | ![](/assets/3擷取.PNG) |
+| Binary Classification | Multiclass classification |Regression|
+| :--- | :--- |:--- |
+| ![](/assets/binary_perceptron.PNG) | ![](/assets/3擷取.PNG) |<img src="/assets/擷取選取區域_051.png" width="2%" height="2%">
+
+
+
+|
 
 
 
