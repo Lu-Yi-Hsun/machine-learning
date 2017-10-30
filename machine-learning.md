@@ -41,7 +41,7 @@
 ## 4 資料種類
 |Concrete| Raw|
 |:---|:---|:---|
-|資料裡面有人類的智慧,有預先處理的資料</br>範例:辨識1跟5 用人腦寫下規則到底這張圖有沒有對稱或是密度如何![](/assets/擷取選取區域_057.png)|![](/assets/擷取選取區域_058.png)</br>dddd|
+|資料裡面有人類的智慧,有預先處理的資料</br>範例:辨識1跟5 用人腦寫下規則到底這張圖有沒有對稱或是密度如何![](/assets/擷取選取區域_057.png)|資料沒有人類智慧 </br> 範例:直接輸入pixel,但pixel沒有人類智慧只是單純的數據![](/assets/擷取選取區域_058.png)|
 ---
 ## Verification
 ### Choose ONE hypothesis set using Hoeffding's inequality
