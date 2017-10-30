@@ -28,7 +28,7 @@
 #2.
 |Supervised|Unsupervised|
 | :--- || :--- |
-|Sample:Classification![](/assets/3擷取.PNG) | Sample: Clustering![](/assets/擷取選取區域_055.png)|
+|Sample:Classification![](/assets/3擷取.PNG) | Sample: Clustering![](/assets/擷取選取區域_055.png)</br>clustering(分群)</br>density estimation:哪些地方比較稠密應用ex.哪裡比較常發生事故</br>outlier detection:找出異常的資料,因為異常資料很少|
 ## Verification
 ### Choose ONE hypothesis set using Hoeffding's inequality
 ![](/assets/hi.PNG)
