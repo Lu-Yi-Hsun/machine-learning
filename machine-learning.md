@@ -29,11 +29,11 @@
 | :--- | :--- |:--- |:--- |
 | ![](/assets/binary_perceptron.PNG) | ![](/assets/3擷取.PNG) |![](/assets/擷取選取區域_051.png)|![](/assets/擷取選取區域_052.png)|
 #2.
-|Supervised|Semi-supervised|Unsupervised|
-| :--- || :--- || :--- |
-|Sample:Classification![](/assets/3擷取.PNG) |![](/assets/擷取選取區域_056.png)| Sample: Clustering![](/assets/擷取選取區域_055.png)</br>clustering(分群)</br>density estimation:哪些地方比較稠密應用ex.哪裡比較常發生事故</br>outlier detection:找出異常的資料,因為異常資料很少|
-#3.Reinforcement Learning (強化學習)
-## 跟訓練寵物一樣,對給獎勵,錯給懲罰
+|Supervised|Semi-supervised|Unsupervised|Reinforcement Learning (增強式學習)|
+| :--- || :--- || :--- || :---|
+|Sample:Classification![](/assets/3擷取.PNG) |![](/assets/擷取選取區域_056.png)| Sample: Clustering![](/assets/擷取選取區域_055.png)</br>clustering(分群)</br>density estimation:哪些地方比較稠密應用ex.哪裡比較常發生事故</br>outlier detection:找出異常的資料,因為異常資料很少|跟訓練寵物一樣,對給獎勵,錯給懲罰
+|
+#3
 ---
 ## Verification
 ### Choose ONE hypothesis set using Hoeffding's inequality
