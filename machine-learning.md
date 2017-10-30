@@ -28,7 +28,7 @@
 #2.
 |Supervised|Unsupervised|
 | :--- || :--- |
-|Classification![](/assets/3擷取.PNG) | Clustering![](/assets/擷取選取區域_055.png)|
+|Sample:Classification![](/assets/3擷取.PNG) | Sample: Clustering![](/assets/擷取選取區域_055.png)|
 ## Verification
 ### Choose ONE hypothesis set using Hoeffding's inequality
 ![](/assets/hi.PNG)
