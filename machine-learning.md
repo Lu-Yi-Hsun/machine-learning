@@ -1,11 +1,15 @@
 # Machine Learning
+[機器學習詳細的分類](#Types of Machine Learning)
+[評估機器學習演算法](#Hoeffding's inequality)
+
+
 ![](/assets/gm9wDgD.png)
-[ss](#d)
+
 ## 什麼時候可以使用機器學習？
 #### 1.要有規則 2.不容易寫出來的規則(辨識圖片)3.有足夠的資料
 ## 機器學習作法？
 #### 從資料出發去學習
-
+---
 ## Learning Model
 #### D:跟f有關的資料 
 #### A:機器學習的演算法 
@@ -22,8 +26,9 @@
 ![](/assets/sswd.PNG)
 
 ---
-
+<a id="Types of Machine Learning">
 # Types of Machine Learning
+</a>
 
 ## 1.要問什麼問題(輸出的空間有變化)
 | Binary Classification | Multiclass classification |Regression|Structured Learning|
@@ -51,9 +56,10 @@
 ![](/assets/HF2.JPG)
 
 hypothesis set越大,所需要的資料(N)就越大,才能符合準確度
+<a id="Hoeffding's inequality">
 
 
 [Hoeffding's inequality(評估機器學習演算法的方法)
 ](/mathematics/probability-theory/hoeffdings-inequality.md)
 
-<a id="d">ssss</a>
+</a>
