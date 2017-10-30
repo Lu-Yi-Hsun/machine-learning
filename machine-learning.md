@@ -23,20 +23,21 @@
 
 ---
 
-## Types of Learning
-#1.
+# Types of Machine Learning
+
+## 1.要問什麼問題
 | Binary Classification | Multiclass classification |Regression|Structured Learning|
 | :--- | :--- |:--- |:--- |
 | ![](/assets/binary_perceptron.PNG) | ![](/assets/3擷取.PNG) |![](/assets/擷取選取區域_051.png)|![](/assets/擷取選取區域_052.png)|
-#2.
+## 2.要怎麼學習
 |Supervised|Semi-supervised|Unsupervised|Reinforcement Learning (增強式學習)|
 | :--- || :--- || :--- || :---|
 |Sample:Classification![](/assets/3擷取.PNG) |![](/assets/擷取選取區域_056.png)| Sample: Clustering![](/assets/擷取選取區域_055.png)</br>clustering(分群)</br>density estimation:哪些地方比較稠密應用ex.哪裡比較常發生事故</br>outlier detection:找出異常的資料,因為異常資料很少|跟訓練寵物一樣,對給獎勵,錯給懲罰
 |
-#3
+## 3 要怎麼輸入資料
 |batch| Online|active|
 |:---|:---|:---|
-|成批的資料來學習|一筆一筆資料來學習,遇到錯誤在改正</br>ex.PLA,Reinforcement Learning|機器自己問問題</br>ex.機器自己寫一個數字,反過來問人來學習|
+|成批的資料來學習|一筆一筆資料來學習,遇到錯誤在改正</br>ex.PLA,Reinforcement Learning|機器自己問問題,希望機器學習速度加快跟人一樣</br>ex.機器自己寫一個數字,反過來問人來學習|
 ---
 ## Verification
 ### Choose ONE hypothesis set using Hoeffding's inequality
