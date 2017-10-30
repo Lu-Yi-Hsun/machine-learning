@@ -14,8 +14,12 @@
 #### g:接近真實f的演算法(函數) 
 #### f:夢想得到的演算法(函數)
 ## Types of Learning
-### 1.Binary Classification
-### 2.Multiclass Classification
+| Binary Classification | Multiclass classification |
+| :--- | :--- |
+| ![](/assets/binary_perceptron.PNG) | ![](/assets/3擷取.PNG) |
+
+
+
 
 
 #### 目標：從A裡面很多個H中選一個來代表g,希望g越接近f
