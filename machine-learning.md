@@ -37,7 +37,7 @@
 ## 3 要怎麼輸入資料
 |batch| Online|active|
 |:---|:---|:---|
-|成批的資料來學習|一筆一筆資料來學習,遇到錯誤在改正</br>ex.PLA,Reinforcement Learning|機器自己問問題,希望機器學習速度加快跟人一樣</br>ex.機器自己寫一個數字,反過來問人來學習|
+|成批的資料來學習|一筆一筆資料來學習,遇到錯誤在改正</br>ex.PLA,Reinforcement Learning|機器自己問問題,當資料很少或很貴可以使用,也希望機器學習速度加快跟人一樣</br>ex.機器自己寫一個數字,反過來問人來學習|
 ---
 ## Verification
 ### Choose ONE hypothesis set using Hoeffding's inequality
