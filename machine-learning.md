@@ -38,6 +38,10 @@
 |batch| Online|active|
 |:---|:---|:---|
 |成批的資料來學習|一筆一筆資料來學習,遇到錯誤在改正</br>ex.PLA,Reinforcement Learning|機器自己問問題,當資料很少或很貴可以使用,也希望機器學習速度加快跟人一樣</br>ex.機器自己寫一個數字,反過來問人來學習|
+## 4 資料種類
+|Concrete| Raw|
+|:---|:---|:---|
+|資料裡面有人類的智慧,有預先處理的資料</br>範例:辨識1跟5 用人腦寫下規則到底這張圖有沒有對稱或是密度如何![](/assets/擷取選取區域_057.png)|![](/assets/擷取選取區域_058.png)</br>dddd|
 ---
 ## Verification
 ### Choose ONE hypothesis set using Hoeffding's inequality
