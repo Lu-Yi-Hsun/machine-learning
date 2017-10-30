@@ -17,6 +17,7 @@
 
 
 #### 目標：從A裡面很多個H中選一個來代表g,希望g越接近f
+ 
 
 ![](/assets/sswd.PNG)
 ## Types of Learning
@@ -31,7 +32,6 @@
 ## Verification
 ### Choose ONE hypothesis set using Hoeffding's inequality
 ![](/assets/hi.PNG)
-
 
 ###Choose many hypothesis set
 ![](/assets/HF2.JPG)
