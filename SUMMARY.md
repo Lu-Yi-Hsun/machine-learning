@@ -5,7 +5,7 @@
 * [Introduction](README.md)
 * [Machine learning](machine-learning.md)
   * [Neural Networks](machine-learning/neural-networks.md)
-    * [Single-layer Network\(Perceptron\)](machine-learning/neural-networks/perceptron.md)
+    * [Simple-Single-layer Network\(Perceptron\)](machine-learning/neural-networks/perceptron.md)
       * [PLA\(Binary Classification\)](machine-learning/neural-networks/perceptron/Binary Classification.md)
       * [Single-layer Network with Backpropagation](machine-learning/neural-networks/perceptron/single-layer-network-with-backpropagation.md)
     * [Simple-Multilayer Network](machine-learning/neural-networks/multilayer-network.md)
