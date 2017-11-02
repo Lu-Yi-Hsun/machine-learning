@@ -88,7 +88,7 @@ plt.show()
 
 
 ## *多個hypothesis set{#muhiml}
-[top](top)
+[top](#top)
 ###可以設定hypothesis set有多少 可以計算出當你的hypothesis set越大 N就要越大,資料才會準確
 
 ```python
