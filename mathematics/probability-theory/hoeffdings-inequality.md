@@ -2,10 +2,21 @@
 ## 目錄
 ### [Hoeffding's inequality基本概念](#hisample)
 ### [Hoeffding's inequality應用在機器學習]($himl)
-    
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [單一Hypothesis]($onehiml)
+
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [多Hypothesis]($muhiml)
+
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [遇到無限Hypothesis的問題]($himl)
+
+
+
 ---
 
-## Hoeffding's inequality基本概念{#hisample}
+# Hoeffding's inequality基本概念{#hisample}
+[top](#top)
+
+
+
 ###這裡以彈珠做舉例
 ![](/assets/hZ4lFY6.png)
 ### 抽一次誤差很大的機率很低
@@ -17,13 +28,21 @@
 ![](/assets/ff.PNG)
 ---
 #Hoeffding's inequality應用在機器學習{#himl}
+##*單一Hypothesis{#onehiml}
+[top](#top)
+
+
+
+![](/assets/擷取選取區域_060.png)
+![](/assets/擷取選取區域_061.png)
+
 
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 fig = plt.figure()
-fig.suptitle(r'$\mathbb{P}[|v-\mu|>\epsilon]\leq2e^{-2\epsilon^{2}N}$',fontsize=20,color="gray")
+fig.suptitle(r'$\mathbb{P}[|E_{in}(h)-E_{out}(h)|>\epsilon]\leq2e^{-2\epsilon^{2}N}$',fontsize=20,color="gray")
 
 
 #FIG1
@@ -63,15 +82,14 @@ plt.tight_layout()
 plt.subplots_adjust(top=0.8)
 
 plt.show()
+
 ```
 
-![](/assets/GnTGZPR.png)
 
----
 
-## 多個hypothesis set
-
-## 可以設定hypothesis set有多少 可以計算出當你的hypothesis set越大 N就要越大,資料才會準確
+## *多個hypothesis set{#muhiml}
+[top](top)
+###可以設定hypothesis set有多少 可以計算出當你的hypothesis set越大 N就要越大,資料才會準確
 
 ```python
 import numpy as np
