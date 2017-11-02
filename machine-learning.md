@@ -1,9 +1,12 @@
 # Machine Learning{#top}
-目錄
-[1.概論](#概論)
-[2.Learning Model](#LearningModel)
-[3.機器學習詳細的分類](#TofML)
-[4.評估機器學習演算法](#HI)
+##目錄
+###[概論](#概論)
+
+###[Learning Model](#LearningModel)
+
+###[機器學習詳細的分類](#TofML)
+
+###[評估機器學習演算法](#HI)
 
 #概論{#概論}
 ![](/assets/gm9wDgD.png)
