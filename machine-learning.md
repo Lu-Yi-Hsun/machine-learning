@@ -1,6 +1,6 @@
 # Machine Learning
 [機器學習詳細的分類](#Types of Machine Learning)
-</br>
+
 [評估機器學習演算法](#Hoeffdings inequality)
 
 
@@ -32,26 +32,26 @@
 <a id="Types of Machine Learning"></a>
 
 ## 1.Learning with Different Output Space(要問什麼問題)
-</br>
+
 
 | Binary Classification | Multiclass classification |Regression|Structured Learning|
 | :--- | :--- |:--- |:--- |
 | ![](/assets/binary_perceptron.PNG) | ![](/assets/3擷取.PNG) |![](/assets/擷取選取區域_051.png)|![](/assets/擷取選取區域_052.png)|
 ## 2.Learning with Different Data Label(拿到不同標記的資料,要怎處理)
-</br>
+
 
 |Supervised|Semi-supervised|Unsupervised|Reinforcement Learning (增強式學習)|
 | :--- || :--- || :--- || :---|
 |Sample:Classification![](/assets/3擷取.PNG) |![](/assets/擷取選取區域_056.png)| Sample: Clustering![](/assets/擷取選取區域_055.png)</br>clustering(分群)</br>density estimation:哪些地方比較稠密應用ex.哪裡比較常發生事故</br>outlier detection:找出異常的資料,因為異常資料很少|跟訓練寵物一樣,對給獎勵,錯給懲罰
 |
 ## 3 Learning with Different Protocol $$f \implies (x_{n},y_{n})$$輸入資料的方法
-</br>
+
 
 |batch| Online|active|
 |:---|:---|:---|
 |成批的資料來學習|一筆一筆資料來學習,遇到錯誤在改正</br>ex.PLA,Reinforcement Learning|機器自己問問題,當資料很少或很貴可以使用,也希望機器學習速度加快跟人一樣</br>ex.機器自己寫一個數字,反過來問人來學習|
 ## 4 Learning with Different Input Space $$\mathcal{X}$$ 資料種類
-</br>
+
 
 |Concrete| Raw|abstract|
 |:---|:---|:---|
