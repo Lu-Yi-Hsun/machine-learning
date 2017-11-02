@@ -27,8 +27,7 @@
 
 ---
 <a id="Types of Machine Learning">
-# Types of Machine Learning
-</a>
+# Types of Machine Learning</a>
 
 ## 1.Learning with Different Output Space</br>(要問什麼問題)
 | Binary Classification | Multiclass classification |Regression|Structured Learning|
