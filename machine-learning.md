@@ -1,7 +1,7 @@
 # Machine Learning
-[機器學習詳細的分類](#Types of Machine Learning)
+[機器學習詳細的分類](#TofML)
 
-[評估機器學習演算法](#se)
+[評估機器學習演算法](#HI)
 
 
 ![](/assets/gm9wDgD.png)
@@ -28,8 +28,8 @@
 
 ---
 
-# Types of Machine Learning
-<a id="Types of Machine Learning"></a>
+# Types of Machine Learning{#TofML}
+ 
 
 ## 1.Learning with Different Output Space(要問什麼問題)
 
@@ -59,7 +59,7 @@
 
 ---
 
-## Verification 評估演算法好不好{#se}
+## Verification 評估演算法好不好{#HI}
 
 
 
