@@ -6,9 +6,9 @@
 ---
 
 ## Hoeffding's inequality基本概念{#hisample}
+###這裡以彈珠做舉例
 ![](/assets/hZ4lFY6.png)
 ### 抽一次誤差很大的機率很低
-目的：說明當N 
 * N=抽出多少個,$$\nu$$=橘色機率在N中,$$\mu$$=橘色的機率占全部\(通常未知\),$$\epsilon$$=誤差
 * 固定$$\epsilon$$,一次抽越多樣本$$\epsilon$$\(誤差\)機率越小
 * 固定N,$$\epsilon$$\(誤差\)越大的機率越小
