@@ -30,7 +30,9 @@
 # Types of Machine Learning
 <a id="Types of Machine Learning"></a>
 
-## 1.Learning with Different Output Space</br>(要問什麼問題)
+## 1.Learning with Different Output Space(要問什麼問題)
+</br>
+
 | Binary Classification | Multiclass classification |Regression|Structured Learning|
 | :--- | :--- |:--- |:--- |
 | ![](/assets/binary_perceptron.PNG) | ![](/assets/3擷取.PNG) |![](/assets/擷取選取區域_051.png)|![](/assets/擷取選取區域_052.png)|
