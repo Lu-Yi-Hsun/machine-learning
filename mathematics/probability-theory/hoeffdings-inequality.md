@@ -1,19 +1,22 @@
-# Hoeffding's inequality 應用：演算法的評估
+# Hoeffding's inequality 應用：演算法的評估{#top}
+## 目錄
+### [Hoeffding's inequality基本概念](#hisample)
+### [Hoeffding's inequality應用在機器學習]($himl)
+    
+---
 
-## 單一hypothesis  set
-
+## Hoeffding's inequality基本概念{#hisample}
 ![](/assets/hZ4lFY6.png)
-
 ### 抽一次誤差很大的機率很低
-
+目的：說明當N 
 * N=抽出多少個,$$\nu$$=橘色機率在N中,$$\mu$$=橘色的機率占全部\(通常未知\),$$\epsilon$$=誤差
 * 固定$$\epsilon$$,一次抽越多樣本$$\epsilon$$\(誤差\)機率越小
 * 固定N,$$\epsilon$$\(誤差\)越大的機率越小
 * 證明!抽出的越多\(N越大\)$$\nu$$跟$$\mu$$越接近
-
-## 由於不知道$$\mu$$真實的值所以只能算大概的機率就使用此方法
-
+### 範例
 ![](/assets/ff.PNG)
+---
+#ee{himl}
 
 ```python
 import numpy as np
