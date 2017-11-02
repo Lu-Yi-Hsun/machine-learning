@@ -1,5 +1,4 @@
-# Hoeffding's inequality
-## 目的：演算法的評估
+# Hoeffding's inequality 應用：演算法的評估
 
 ## 單一hypothesis  set
 
@@ -12,7 +11,7 @@
 * 固定N,$$\epsilon$$\(誤差\)越大的機率越小
 * 證明!抽出的越多\(N越大\)$$\nu$$跟$$\mu$$越接近
 
-## 由於不知道$$\nu$$真實的值所以只能算大概的機率就使用此方法
+## 由於不知道$$\mu$$真實的值所以只能算大概的機率就使用此方法
 
 ![](/assets/ff.PNG)
 
