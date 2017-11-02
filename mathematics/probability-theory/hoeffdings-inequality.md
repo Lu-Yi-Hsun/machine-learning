@@ -1,12 +1,12 @@
 # Hoeffding's inequality 應用：演算法的評估{#top}
 ## 目錄
 ### [Hoeffding's inequality基本概念](#hisample)
-### [Hoeffding's inequality應用在機器學習]($himl)
-####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [單一Hypothesis]($onehiml)
+### [Hoeffding's inequality應用在機器學習](#himl)
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [單一Hypothesis](#onehiml)
 
-####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [多Hypothesis]($muhiml)
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [多Hypothesis](#muhiml)
 
-####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [遇到無限Hypothesis的問題]($himl)
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [遇到無限Hypothesis的問題](#himl)
 
 
 
