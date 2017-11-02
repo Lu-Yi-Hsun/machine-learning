@@ -1,47 +1,53 @@
-# Hoeffding's inequality 應用：演算法的評估{#top}
+# Hoeffding's inequality 應用：演算法的評估 {#top}
+
 ## 目錄
+
 ### [Hoeffding's inequality基本概念](#hisample)
+
 ### [Hoeffding's inequality應用在機器學習](#himl)
-####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [單一Hypothesis](#onehiml)
 
-####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [多Hypothesis](#muhiml)
+####              [單一Hypothesis](#onehiml)
 
-####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [遇到無限Hypothesis的問題](#nonlimhiml)
+####              [多Hypothesis](#muhiml)
 
-
+####              [遇到無限Hypothesis的問題](#nonlimhiml)
 
 ---
 
-# Hoeffding's inequality基本概念{#hisample}
+# Hoeffding's inequality基本概念 {#hisample}
+
 [top](#top)
 
+### 這裡以彈珠做舉例
 
-
-###這裡以彈珠做舉例
 ![](/assets/hZ4lFY6.png)
+
 ### 抽一次誤差很大的機率很低
+
 * N=抽出多少個,$$\nu$$=橘色機率在N中,$$\mu$$=橘色的機率占全部\(通常未知\),$$\epsilon$$=誤差
 * 固定$$\epsilon$$,一次抽越多樣本$$\epsilon$$\(誤差\)機率越小
 * 固定N,$$\epsilon$$\(誤差\)越大的機率越小
 * 證明!抽出的越多\(N越大\)$$\nu$$跟$$\mu$$越接近
-### 範例
-![](/assets/ff.PNG)
+  ### 範例
+
+  ![](/assets/ff.PNG)
+
 ---
-#Hoeffding's inequality應用在機器學習{#himl}
+
+# Hoeffding's inequality應用在機器學習 {#himl}
 
 ## 改寫剛剛的基本概念
-##$$\nu \implies E_{in}(h):在已知的資料內,該演算法目前犯錯的機率(越小準確率越高)$$
 
+## $$\nu \implies E_{in}(h):在已知的資料內,該演算法目前犯錯的機率(越小準確率越高)$$
 
-##$$\mu\implies E_{out}(h):該演算法在全部資料(上帝視角)內犯錯的機率(同常未知)$$
-##*單一Hypothesis{#onehiml}
+## $$\mu\implies E_{out}(h):該演算法在全部資料(上帝視角)內犯錯的機率(同常未知)$$
+
+## \*單一Hypothesis {#onehiml}
+
 [top](#top)
 
-
-
-![](/assets/擷取選取區域_060.png)
+![](/assets/擷取選取區域_060.png)  
 ![](/assets/擷取選取區域_061.png)
-
 
 ```python
 import numpy as np
@@ -88,14 +94,13 @@ plt.tight_layout()
 plt.subplots_adjust(top=0.8)
 
 plt.show()
-
 ```
 
+## \*多個hypothesis set {#muhiml}
 
-
-## *多個hypothesis set{#muhiml}
 [top](#top)
-###可以設定hypothesis set有多少 可以計算出當你的hypothesis set越大 N就要越大,資料才會準確
+
+### 可以設定hypothesis set有多少 可以計算出當你的hypothesis set越大 N就要越大,資料才會準確
 
 ```python
 import numpy as np
@@ -163,7 +168,7 @@ radio.on_clicked(colorfunc)
 plt.show()
 ```
 
- ![](/assets/擷取選取區域_062.png)
+![](/assets/擷取選取區域_062.png)
 
 ### 題目:當E$$\tiny{in}$$和E$$\tiny{out}$$誤差超過0.1\($$\epsilon$$\)的機率為0.05\($$\delta$$\)hypothesis set有100個\(M\)
 
@@ -172,10 +177,11 @@ plt.show()
 
 ---
 
-#*遇到無限Hypothesis的問題{#nonlimhiml}
-##PLA演算法的hypothesis set有無限多所以怎麼辦?
+# \*遇到無限Hypothesis的問題 {#nonlimhiml}
 
-因為在平面上有無限多條線所以pla的hypothesis set有無限多個那該怎計算?   
+## PLA演算法的hypothesis set有無限多所以怎麼辦?
+
+因為在平面上有無限多條線所以pla的hypothesis set有無限多個那該怎計算?  
 因為有許多重疊的hypothesis set  
 底下把hypothesis set用dichotomy來替換,因為hypothesis set無限多無法計算  
 以PLA舉例:  
@@ -199,7 +205,7 @@ plt.show()
 * 這個形狀下的排列每個都可以用一條線分開所以breakpoint不是3  
   ![](/assets/bb1.JPG)
 
-* 這個形狀下發生無法用線分開,其他形狀也發生無法全部分開所以breakpoint為4
+* 這個形狀下發生無法用線分開,其他形狀也發生無法全部分開所以breakpoint為4  
   ![](/assets/bb2.JPG)
 
 | m$$\tiny{H}(N)$$=O\($$N^{breakpoint-1}$$\) | positive rays | positive intervals | convex | 2D perceptrons |
