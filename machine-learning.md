@@ -1,4 +1,4 @@
-# Machine Learning
+# Machine Learning{#top}
 [機器學習詳細的分類](#TofML)
 
 [評估機器學習演算法](#HI)
@@ -29,6 +29,9 @@
 ---
 
 # Types of Machine Learning{#TofML}
+[top](#top)
+
+
  
 
 ## 1.Learning with Different Output Space(要問什麼問題)
@@ -60,6 +63,8 @@
 ---
 
 ## Verification 評估演算法好不好{#HI}
+[top](#top)
+
 
 
 
