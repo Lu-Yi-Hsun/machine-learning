@@ -99,7 +99,7 @@ from matplotlib.widgets import Slider, Button, RadioButtons
 fig, ax = plt.subplots()
 #equation title
 plt.xlabel('$\epsilon$')
-fig.suptitle(r'$\mathbb{P}[|v-\mu|>\epsilon]\leq$2H$e^{-2\epsilon^{2}N}$',fontsize=20,color="black",alpha=0.6)
+fig.suptitle(r'$\mathbb{P}[|E_{in}(h)-E_{out}(h)|>\epsilon]\leq$2H$e^{-2\epsilon^{2}N}$',fontsize=20,color="black",alpha=0.6)
 plt.subplots_adjust(left=0.25, bottom=0.25)
 hypothesis=1 #set how many hypothesis set
 x = np.arange(0.0, 1.0, 0.001)
@@ -157,7 +157,7 @@ radio.on_clicked(colorfunc)
 plt.show()
 ```
 
-![](/assets/HY3.JPG)
+ ![](/assets/擷取選取區域_062.png)
 
 ### 題目:當E$$\tiny{in}$$和E$$\tiny{out}$$誤差超過0.1\($$\epsilon$$\)的機率為0.05\($$\delta$$\)hypothesis set有100個\(M\)
 
