@@ -6,7 +6,7 @@
 
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [多Hypothesis](#muhiml)
 
-####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [遇到無限Hypothesis的問題](#himl)
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [遇到無限Hypothesis的問題](#nonlimhiml)
 
 
 
@@ -28,6 +28,12 @@
 ![](/assets/ff.PNG)
 ---
 #Hoeffding's inequality應用在機器學習{#himl}
+
+## 改寫剛剛的基本概念
+##$$\nu \implies E_{in}(h):在已知的資料內,該演算法目前犯錯的機率(越小準確率越高)$$
+
+
+##$$\mu\implies E_{out}(h):該演算法在全部資料(上帝視角)內犯錯的機率(同常未知)$$
 ##*單一Hypothesis{#onehiml}
 [top](#top)
 
@@ -166,7 +172,8 @@ plt.show()
 
 ---
 
-# PLA演算法的hypothesis set有無限多所以怎麼辦?
+#*遇到無限Hypothesis的問題{#nonlimhiml}
+##PLA演算法的hypothesis set有無限多所以怎麼辦?
 
 因為在平面上有無限多條線所以pla的hypothesis set有無限多個那該怎計算?   
 因為有許多重疊的hypothesis set  
