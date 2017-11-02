@@ -53,7 +53,7 @@
 
 
 
-|Supervised$$~~~~~~~~~~~~~~~~~~~~~~~~~~$$|Semi-supervised$$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$$|Unsupervised|Reinforcement Learning (增強式學習)|
+|Supervised$$~~~~~~~~~~~~~~~~~~~~~$$|Semi-supervised$$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$$|Unsupervised|Reinforcement Learning (增強式學習)|
 | :--- || :--- || :--- || :--|
 |Sample:Classification ![](/assets/3擷取.PNG) |![](/assets/擷取選取區域_056.png)| Sample: Clustering <br />![](/assets/擷取選取區域_055.png)<br />clustering(分群)density estimation:哪些地方比較稠密應用ex.哪裡比較常發生事故outlier detection:找出異常的資料,因為異常資料很少|跟訓練寵物一樣,對給獎勵,錯給懲罰
 |
