@@ -1,5 +1,6 @@
 # Machine Learning
 [機器學習詳細的分類](#Types of Machine Learning)
+</br>
 [評估機器學習演算法](#Hoeffdings inequality)
 
 
