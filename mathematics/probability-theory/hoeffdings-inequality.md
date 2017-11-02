@@ -16,7 +16,7 @@
 ### 範例
 ![](/assets/ff.PNG)
 ---
-#ee{himl}
+#Hoeffding's inequality應用在機器學習{#himl}
 
 ```python
 import numpy as np
