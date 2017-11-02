@@ -1,7 +1,7 @@
 # Machine Learning
 [機器學習詳細的分類](#Types of Machine Learning)
 
-[評估機器學習演算法](#Hoeffdings inequality)
+[評估機器學習演算法](#se)
 
 
 ![](/assets/gm9wDgD.png)
@@ -59,7 +59,7 @@
 
 ---
 
-## Verification 評估演算法好不好{#Hoeffdings inequality}
+## Verification 評估演算法好不好{#se}
 
 
 
