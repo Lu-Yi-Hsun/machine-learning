@@ -1,6 +1,7 @@
 # Machine Learning{#top}
 目錄
 [概論](#概論)
+[Learning Model](#LearningModel)
 [機器學習詳細的分類](#TofML)
 [評估機器學習演算法](#HI)
 
@@ -12,7 +13,7 @@
 ## 機器學習作法？
 ### 從資料出發去學習
 ---
-# Learning Model
+# Learning Model{#LearningModel}
 ### 目標：從A裡面很多個H中選一個來代表g,希望g越接近f
 ## D:跟f有關的資料 
 ## A:機器學習的演算法 
@@ -26,7 +27,7 @@
 
 ---
 
-# 1.Types of Machine Learning{#TofML}
+# Types of Machine Learning{#TofML}
 [top](#top)
 
 
