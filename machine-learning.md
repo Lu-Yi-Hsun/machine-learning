@@ -61,7 +61,7 @@ Binary Classification | Multiclass classification |Regression|Structured Learnin
 
 |Supervised|Semi-supervised|
 |---|---|
-|Sample:Classification ![](/assets/3擷取.PNG) |![](/assets/擷取選取區域_056.png)|
+|Sample:Classification ![](/assets/3擷取.PNG)</ br> 已經標記好資料 |![](/assets/擷取選取區域_056.png)|
 
 
 |Unsupervised|Reinforcement Learning (增強式學習)|
