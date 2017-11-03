@@ -1,4 +1,4 @@
- # Binary Classification/二元分類 PLA 
+# Binary Classification/二元分類 PLA 
 ###用一條線分開數據
 ---
 
