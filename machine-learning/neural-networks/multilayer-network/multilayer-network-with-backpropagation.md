@@ -1,12 +1,16 @@
 
 ![](/assets/擷取選取區域_046.png)
+#該範例的結構
 
 ![](/assets/擷取選取區域_047.png)
 
 
 ![](/assets/擷取選取區域_048.png)
 
-
+### In this sample is Fully connected three-layered MLP network with 150 neurons in the hidden layer.
+* ####  Full connected:全連接層
+* ####  MLP (多層感知器):加上activation function跟反向傳遞演算法
+ 
 ```python
 
 from __future__ import print_function
