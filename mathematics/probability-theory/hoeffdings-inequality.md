@@ -2,15 +2,12 @@
 
 ## 目錄
 
-### [Hoeffding's inequality基本概念](#hisample)
+* ### [Hoeffding's inequality基本概念](#hisample)
 
-### [Hoeffding's inequality應用在機器學習](#himl)
-
-####              [單一Hypothesis](#onehiml)
-
-####              [多Hypothesis](#muhiml)
-
-####              [遇到無限Hypothesis的問題](#nonlimhiml)
+* ### [Hoeffding's inequality應用在機器學習](#himl)
+    * ####[單一Hypothesis](#onehiml)
+    * ####[多Hypothesis](#muhiml)
+    * ####[遇到無限Hypothesis的問題](#nonlimhiml)
 
 ---
 
