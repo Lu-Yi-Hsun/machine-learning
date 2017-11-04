@@ -5,6 +5,7 @@
 * ### [Hoeffding's inequality基本概念](#hisample)
 
 * ### [Hoeffding's inequality應用在機器學習](#himl)
+    * ####[解釋符號](#sigdec)
     * ####[單一Hypothesis](#onehiml)
     * ####[多Hypothesis](#muhiml)
     * ####[遇到無限Hypothesis的問題](#nonlimhiml)
@@ -21,7 +22,7 @@
 
 ### 抽一次誤差很大的機率很低,該不等式能說明該機率有多低
 
-* 變數解釋
+* 符號解釋
     * N=抽出多少個
     * $$\nu$$=橘色機率在N中
     * $$\mu$$=橘色的機率占全部\(通常未知\)
@@ -41,19 +42,24 @@ $$\nu和\mu$$大概差不多是對的,$$在\epsilon 容忍誤差內$$
 ---
 
 # Hoeffding's inequality應用在機器學習 {#himl}
+[top](#top)
 
-## 改寫剛剛的基本概念
-* ###變數解釋：
-    * ### $$\nu \implies E_{in}(h)$$:在已知的資料內,該演算法目前犯錯的機率(越小準確率越高)
-    * ### $$\mu\implies E_{out}(h)$$:該演算法在"全部"資料(上帝視角)內犯錯的機率(同常未知)
-    * ### N:資料數量
-    * ###Hypothesis:假說
+* ##符號解釋：{#sigdec}
+    * ## $$\nu \implies E_{in}(h)$$:在已知的資料內,該演算法目前犯錯的機率(越小準確率越高)
+    * ## $$\mu\implies E_{out}(h)$$:該演算法在"全部"資料(上帝視角)內犯錯的機率(同常未知)
+    * ## $$N$$:資料數量
+    * ##$$M$$:Hypothesis假說的數量
+    * ##$$\color{red}{Bad}:E_{in}跟E_{out}誤差大於\epsilon的情況$$
 ---
 ## 單一Hypothesis {#onehiml}
 用途:確認該Hypothesis好不好
 [top](#top)
-
-![](/assets/擷取選取區域_060.png)  
+### 接下來會改寫剛剛的基本概念,改寫成這個公式
+![](/assets/擷取選取區域_060.png)
+### Hypothesis說明當我只有一個h（Hypothesis）,從這麼多個$$D$$抽到$$\color{red}{Bad}$$的機率小於等於$$2e^{-2\epsilon^{2}N}$$
+### $$D_{n}:每次抽出的資料$$
+![](/assets/擷取選取區域_065.png)
+  
 ![](/assets/擷取選取區域_061.png)
 
 ```python
@@ -109,12 +115,15 @@ plt.show()
 #### 3.藉由從20個朋友裡面選一個最好的規則,來當作投資未來100天股市的方法,你很有可能變成有錢人(錯！因為Hypothesis只有一個（"當早上上漲 下午就下跌"）不能選擇)
 #### 4.你肯定會變有錢人,如果你以前就使用該規則(錯 因為你只是抽出100天來做分佈,搞不好十年來的資料分佈很不一樣)
 ---
-## \*多個hypothesis set {#muhiml}
-用途：當hypothesis有限,可以確認該機器學習演算法好不好
-[top](#top)
-![](/assets/擷取選取區域_062.png)
+## 多個hypothesis set {#muhiml}
 
+[top](#top)
+用途：當hypothesis有限,可以確認該機器學習演算法好不好
+###推導多個hypothesis set公式
+![](/assets/擷取選取區域_066.png)
+![](/assets/擷取選取區域_067.png)
 ### 可以設定hypothesis set有多少 可以計算出當你的hypothesis set越大 N就要越大,資料才會準確
+![](/assets/擷取選取區域_068.png)
 
 ```python
 import numpy as np
@@ -124,7 +133,7 @@ from matplotlib.widgets import Slider, Button, RadioButtons
 fig, ax = plt.subplots()
 #equation title
 plt.xlabel('$\epsilon$')
-fig.suptitle(r'$\mathbb{P}[|E_{in}(h)-E_{out}(h)|>\epsilon]\leq$2H$e^{-2\epsilon^{2}N}$',fontsize=20,color="black",alpha=0.6)
+fig.suptitle(r'$\mathbb{P}[|E_{in}(h)-E_{out}(h)|>\epsilon]\leq$2$Me^{-2\epsilon^{2}N}$',fontsize=20,color="black",alpha=0.6)
 plt.subplots_adjust(left=0.25, bottom=0.25)
 hypothesis=1 #set how many hypothesis set
 x = np.arange(0.0, 1.0, 0.001)
@@ -148,7 +157,7 @@ samp = Slider(axamp, 'N', 0.0, 1000.0, valinit=a0)
 hy = plt.axes([0.25, 0.13, 0.65, 0.03], facecolor=axcolor)
 
 
-hy_ok = Slider(hy, 'hypothesis set(H)', 0.0, 1000.0, valinit=hypothesis)
+hy_ok = Slider(hy, 'Hypothesis set(M)', 0.0, 1000.0, valinit=hypothesis)
 
 
 def update(val):
