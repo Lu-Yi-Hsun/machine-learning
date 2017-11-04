@@ -1,7 +1,9 @@
 # Machine Learning{#top}
 ##目錄
 ###[概論](#概論)
-
+$$
+\int_{-\infty}^\infty g(x) dx
+$$
 ###[Learning Model](#LearningModel)
 
 ###[機器學習詳細的分類](#TofML)
