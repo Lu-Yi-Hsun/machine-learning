@@ -117,5 +117,6 @@ Binary Classification | Multiclass classification |Regression|Structured Learnin
 
 hypothesis set越大,所需要的資料(N)就越大,才能符合準確度
 
-# [Hoeffding's inequality(詳細評估機器學習演算法的方法)](/Mathematics/Probability Theory/Hoeffdings Inequality.md)
+# [Hoeffding's inequality(詳細部份請參考此)](/Mathematics/Probability Theory/Hoeffdings Inequality.md)
+
 
