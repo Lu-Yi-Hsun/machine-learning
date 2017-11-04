@@ -1,6 +1,5 @@
 # Introduction
-Inline math: $\int_{-\infty}^\infty g(x) dx $
-$$ \ int _ { -  \ infty} ^ \ infty g（x）dx $$
+
 #### 
 
 #### 學習筆記:[https://lu-yi-hsun.gitbooks.io/machine-learning/content/](https://lu-yi-hsun.gitbooks.io/machine-learning/content/)
@@ -17,7 +16,5 @@ $$ \ int _ { -  \ infty} ^ \ infty g（x）dx $$
 
 #### 上課書本[Learning from Data: A Short Course ](https://www.dropbox.com/s/kvet54kbio3v3pj/Learning from Data A Short Course.pdf?dl=0)
 
-$$\KaTeX$$
- The quadratic formula is $$-b \pm \sqrt{b^2 - 4ac} \over 2a$$
- 
-  
+Inline math: $\int_{-\infty}^\infty g(x) dx $
+$$ \ int _ { -  \ infty} ^ \ infty g（x）dx $$
