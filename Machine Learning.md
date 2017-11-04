@@ -12,6 +12,8 @@
 #概論{#概論}
 [top](#top)
 
+Inline math: $\int_{-\infty}^\infty g(x) dx $
+$$ \ int _ { -  \ infty} ^ \ infty g（x）dx $$
 
 
 ![](/assets/gm9wDgD.png)

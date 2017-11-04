@@ -16,5 +16,3 @@
 
 #### 上課書本[Learning from Data: A Short Course ](https://www.dropbox.com/s/kvet54kbio3v3pj/Learning from Data A Short Course.pdf?dl=0)
 
-Inline math: $\int_{-\infty}^\infty g(x) dx $
-$$ \ int _ { -  \ infty} ^ \ infty g（x）dx $$
