@@ -95,22 +95,27 @@ Binary Classification | Multiclass classification |Regression|Structured Learnin
 ###雖然在已看過得資料內g=f,但是未看過的資料內無法保證g=f,所以"目前"只能說機器學習可能學不到東西
 ####g:機器學習學到的方程式 f:夢想求出的方程式
 ##2.使用Hoeffding's inequality就能證明機器學習能學到東西並且預測未知
-##Verification 評估演算法好不好
+##  一個 hypothesis 
+
+
+ * ### 用途:評估Verification this hypothesis
+![](/assets/擷取選取區域_060.png)
 
 
 
 
 
 
-### Choose ONE hypothesis set using Hoeffding's inequality
-![](/assets/hi.PNG)
 
-###Choose many hypothesis set
+
+
+##很多個 hypothesis set
+* ### 用途:當hypothesis數量有限的時候就可以評估機器學習演算法
+* ### $$\mathbb{P}[|E_{in}(h)-E_{out}(h)|>\epsilon]\leq2Me^{-2\epsilon^{2}N}$$
+
 ![](/assets/HF2.JPG)
 
 hypothesis set越大,所需要的資料(N)就越大,才能符合準確度
 
-
-[Hoeffding's inequality(詳細評估機器學習演算法的方法)
-](/mathematics/probability-theory/hoeffdings-inequality.md)
+# [Hoeffding's inequality(詳細評估機器學習演算法的方法)](/Mathematics/Probability Theory/Hoeffdings Inequality.md)
 
