@@ -53,6 +53,7 @@ $$\nu和\mu$$大概差不多是對的,$$在\epsilon 容忍誤差內$$
 ---
 ## 單一Hypothesis {#onehiml}
 用途:確認該Hypothesis好不好
+
 [top](#top)
 ### 接下來會改寫剛剛的基本概念,改寫成這個公式
 ![](/assets/擷取選取區域_060.png)
@@ -118,6 +119,7 @@ plt.show()
 ## 多個hypothesis set {#muhiml}
 
 [top](#top)
+
 用途：當hypothesis有限,可以確認該機器學習演算法好不好
 ###推導多個hypothesis set公式
 ![](/assets/擷取選取區域_066.png)
