@@ -17,5 +17,4 @@
 #### 上課書本[Learning from Data: A Short Course ](https://www.dropbox.com/s/kvet54kbio3v3pj/Learning from Data A Short Course.pdf?dl=0)
 
 
-
- 
+ The quadratic formula is $$-b \pm \sqrt{b^2 - 4ac} \over 2a$$
