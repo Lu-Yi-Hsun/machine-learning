@@ -18,7 +18,7 @@
 
 ## Mathematics
 
-* [Softmax](mathematics/probability-theory/softmax.md)
-* [Probability theory](mathematics/probability-theory.md)
-  * [Hoeffding's inequality](mathematics/probability-theory/hoeffdings-inequality.md)
+* [Softmax](Mathematics/Probability Theory/softmax.md)
+* [Probability theory](Mathematics/Probability Theory.md)
+  * [Hoeffding's inequality](Mathematics/Probability Theory/Hoeffdings Inequality.md)
 
