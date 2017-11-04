@@ -70,5 +70,5 @@ for step in range(20000):
 
 ```
 [延伸多層類神經
-](../multilayer-network/multilayer-network-with-backpropagation.md)
+](../MLP/MLP\(Regression\).md)
 
