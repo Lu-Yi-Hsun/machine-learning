@@ -1,3 +1,10 @@
 {
     "plugins": ["katex","-mathjax"]
+  
+"pluginsConfig": {
+        "mathjax":{
+            "forceSVG": true
+        }
+    }
+
 }
