@@ -1,5 +1,6 @@
 
 ![](/assets/擷取選取區域_044.png)
+##該範例沒有使用Activation Function 所以只能學習線性
 ![](/assets/擷取選取區域_043.png)
 #範例
 ### 資料=10x+5

@@ -1,5 +1,5 @@
 #Neural Networks
-
+PLA跟MLP基礎必學
 * 結構 （Architecture） 結構指定了網路中的變數和它們的拓撲關係。例如，神經網路中的變數可以是神經元連線的權重（weights）和神經元的激勵值（activities of the neurons）。
 
 * 激勵函式（Activity Rule） 大部分神經網路模型具有一個短時間尺度的動力學規則，來定義神經元如何根據其他神經元的活動來改變自己的激勵值。一般激勵函式依賴於網路中的權重（即該網路的參數）。
