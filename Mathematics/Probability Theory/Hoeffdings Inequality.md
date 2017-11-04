@@ -49,7 +49,7 @@ $$\nu$$和$$\mu$$大概差不多是對的,在$$\epsilon$$容忍誤差內
     * ## $$\mu\implies E_{out}(h)$$:該演算法在"全部"資料(上帝視角)內犯錯的機率(同常未知)
     * ## $$N$$:資料數量
     * ##$$M$$:Hypothesis假說的數量
-    * ##$$\color{red}{Bad}:E_{in}跟E_{out}誤差大於\epsilon的情況$$
+    * ##$$\color{red}{Bad}:E_{in}$$跟$$E_{out}$$誤差大於$$\epsilon$$的情況
 ---
 ## 單一Hypothesis {#onehiml}
 用途:確認該Hypothesis好不好
