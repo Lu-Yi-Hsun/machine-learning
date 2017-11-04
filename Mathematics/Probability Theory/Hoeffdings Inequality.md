@@ -5,10 +5,10 @@
 * ### [Hoeffding's inequality基本概念](#hisample)
 
 * ### [Hoeffding's inequality應用在機器學習](#himl)
-    * ####[解釋符號](#sigdec)
-    * ####[單一Hypothesis](#onehiml)
-    * ####[多Hypothesis](#muhiml)
-    * ####[遇到無限Hypothesis的問題](#nonlimhiml)
+    * #### [解釋符號](#sigdec)
+    * #### [單一Hypothesis](#onehiml)
+    * #### [多Hypothesis](#muhiml)
+    * #### [遇到無限Hypothesis的問題](#nonlimhiml)
 
 ---
 
@@ -109,6 +109,7 @@ plt.subplots_adjust(top=0.8)
 
 plt.show()
 ```
+### 練習題
 ![](/assets/擷取選取區域_064.png)
 #### 題目：你的朋友發現一個股市的規則"當早上上漲 下午就下跌",為了確認這條規則你就從過去十年資料裡面抽出100筆資料,發現80筆是正確的,什麼結論你可以說?
 #### 1.藉由利用該規則在未來的100天賺錢,你"肯定"將會變成有錢人(不能這麼肯定)
