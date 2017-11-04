@@ -298,13 +298,13 @@ $$\LARGE~~~~~~~~~~~~~~~~~~~~~~\leq X*\underset{n}{max}\|x_{n}\|^2$$
 #結合這兩個式子
 $$
 \begin{cases}
-\LARGE W_{f}^{T}W_{X}\geq X＊\underset{n}{min}~y_{n}W_{f}^{T}x_{n}
+\LARGE W_{f}^{T}W_{X}\geq X*\underset{n}{min}~y_{n}W_{f}^{T}x_{n}
  
  \\ \LARGE \|W_{X}\|^2\leq X*\underset{n}{max}\|x_{n}\|^2
 \end{cases}
 $$
  
-$$\LARGE\frac{W_{f}^{T}}{\|W_{f}\|}\frac{W_{X}}{\|W_{X}\|}\geq \frac{X＊\underset{n}{min}~y_{n}W_{f}^{T}x_{n}
+$$\LARGE\frac{W_{f}^{T}}{\|W_{f}\|}\frac{W_{X}}{\|W_{X}\|}\geq \frac{X*\underset{n}{min}~y_{n}W_{f}^{T}x_{n}
 }{\|W_{f}\|\sqrt[]{X}*\underset{n}{max}\|x_{n}\|}$$
 
 $$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\LARGE\geq \sqrt[]{X}*\frac{\underset{n}{min}~y_{n}W_{f}^{T}x_{n}
